@@ -1,0 +1,3 @@
+/mnt/c/Users/corne/Downloads/OPSYS4/cmake-build-debug/CMakeFiles/OPSYS4.dir
+/mnt/c/Users/corne/Downloads/OPSYS4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/corne/Downloads/OPSYS4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
