@@ -6,7 +6,7 @@
 #include <time.h>
 #include <signal.h>
 
-#define MAX_TIME_QUANTUM_NS 10000000 // 10ms
+#define QUANTUM_NS 10000000 // 10ms
 #define MAX_RUNNING_TIME_NS 5000000000 // 5 seconds max for a process to run
 
 typedef struct {

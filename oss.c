@@ -151,7 +151,7 @@ void dispatch_process(FILE *log_file) {
                     log_event(log_file, msg);
 
                     // Simulate process execution
-                    int ran_for = (rand() % 2) ? BASE_TIME_QUANTUM : BASE_TIME_QUANTUM / 2;
+                    int ran = (rand() % 2) ? BASE_TIME_QUANTUM : BASE_TIME_QUANTUM / 2;
 
                     snprintf(msg, sizeof(msg), "Receiving that process with PID %d ran for %d nanoseconds", process_table[j].pid, ran_for);
                     log_event(log_file, msg);
