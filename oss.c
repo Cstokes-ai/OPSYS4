@@ -2,276 +2,232 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/types.h>
+#include <sys/wait.h>
+#include <time.h>
+#include <errno.h>
+#include <string.h>
 #include <sys/ipc.h>
 #include <sys/msg.h>
 #include <sys/shm.h>
-#include <sys/wait.h>
 #include <signal.h>
-#include <time.h>
-#include <string.h>
+#include <math.h>
+#include <fcntl.h>
 
-#define MAX_PROCESSES 20
-#define SHMKEY 5678
-#define MSGKEY 1234
-#define QUEUE_LEVELS 3
-#define CLOCK_INCREMENT_MS 100
-#define TIME_LIMIT 3
+#define MAX_PROCS 18
+#define MAX_LOG_LINES 10000
+#define BASE_TIME_QUANTUM 10000000 // 10ms in nanoseconds
+#define NUM_QUEUES 3
 
-struct PCB {
-    int occupied;
-    pid_t pid;
-    int startSeconds;
-    int startNano;
-    int serviceTimeSeconds;
-    int serviceTimeNano;
-    int eventWaitSec;
-    int eventWaitNano;
-    int blocked;
-};
-
-struct PCB processTable[MAX_PROCESSES];
-
-struct SharedClock {
+// Shared memory for clock
+typedef struct {
     unsigned int seconds;
     unsigned int nanoseconds;
+} Clock;
+
+Clock *simulated_clock;
+
+// Process Control Block (PCB)
+typedef struct {
+    int occupied;
+    pid_t pid;
+    unsigned int start_seconds;
+    unsigned int start_nanoseconds;
+    unsigned int service_time_seconds;
+    unsigned int service_time_nanoseconds;
+    unsigned int event_wait_sec;
+    unsigned int event_wait_nanoseconds;
+    int blocked;
+    int queue_level;
+} PCB;
+
+PCB process_table[MAX_PROCS];
+
+// Message queue structure
+struct msg_buffer {
+    long msg_type;
+    int quantum;  // Time slice allocated to the process
 };
 
-struct SharedClock *simClock;
-int shm_id, msq_id;
-FILE *logfile;
-time_t startTime;
+// Queue structure
+typedef struct Queue {
+    int pids[MAX_PROCS];
+    int front;
+    int rear;
+} Queue;
 
-struct msgbuf {
-    long mtype;
-    int data;
-};
+Queue queues[NUM_QUEUES];
 
-struct Queue {
-    int front, rear, size;
-    unsigned capacity;
-    int* array;
-};
-
-struct Queue* createQueue(unsigned capacity) {
-    struct Queue* queue = (struct Queue*) malloc(sizeof(struct Queue));
-    queue->capacity = capacity;
-    queue->front = queue->size = 0;
-    queue->rear = capacity - 1;
-    queue->array = (int*) malloc(queue->capacity * sizeof(int));
-    return queue;
-}
-
-int isFull(struct Queue* queue) {
-    return (queue->size == queue->capacity);
-}
-
-int isEmpty(struct Queue* queue) {
-    return (queue->size == 0);
-}
-
-void enqueue(struct Queue* queue, int item) {
-    if (isFull(queue))
-        return;
-    queue->rear = (queue->rear + 1) % queue->capacity;
-    queue->array[queue->rear] = item;
-    queue->size = queue->size + 1;
-}
-
-int dequeue(struct Queue* queue) {
-    if (isEmpty(queue))
-        return -1;
-    int item = queue->array[queue->front];
-    queue->front = (queue->front + 1) % queue->capacity;
-    queue->size = queue->size - 1;
-    return item;
-}
-
-struct Queue* queues[QUEUE_LEVELS];
-
-void initializeQueues() {
-    for (int i = 0; i < QUEUE_LEVELS; i++) {
-        queues[i] = createQueue(MAX_PROCESSES);
+// Function to initialize queues
+void initialize_queues() {
+    for (int i = 0; i < NUM_QUEUES; i++) {
+        queues[i].front = queues[i].rear = -1;
     }
 }
 
-void cleanup() {
-    shmdt(simClock);
-    shmctl(shm_id, IPC_RMID, NULL);
-    msgctl(msq_id, IPC_RMID, NULL);
+// Function to enqueue a process
+void enqueue(Queue *queue, int pid) {
+    if (queue->rear == MAX_PROCS - 1) return;
+    if (queue->front == -1) queue->front = 0;
+    queue->rear++;
+    queue->pids[queue->rear] = pid;
 }
 
-void sigintHandler(int sig) {
-    cleanup();
-    exit(0);
+// Function to dequeue a process
+int dequeue(Queue *queue) {
+    if (queue->front == -1) return -1;
+    int pid = queue->pids[queue->front];
+    queue->front++;
+    if (queue->front > queue->rear) queue->front = queue->rear = -1;
+    return pid;
+}
+// Function to get the current time in "seconds:nanoseconds" format
+void get_time_str(char *time_str, size_t len) {
+    snprintf(time_str, len, "%u:%09u", simulated_clock->seconds, simulated_clock->nanoseconds);
 }
 
-void incrementClock(int nanoseconds) {
-    simClock->nanoseconds += nanoseconds;
-    if (simClock->nanoseconds >= 1000000000) {
-        simClock->seconds++;
-        simClock->nanoseconds -= 1000000000;
+// Function to log the events to the file
+void log_event(FILE *log_file, const char *event_msg) {
+    char time_str[20];
+    get_time_str(time_str, sizeof(time_str));
+    fprintf(log_file, "OSS: %s at time %s\n", event_msg, time_str);
+    fflush(log_file);
+}
+
+// Function to simulate time increment for OSS
+void increment_time(unsigned int seconds, unsigned int nanoseconds) {
+    simulated_clock->nanoseconds += nanoseconds;
+    if (simulated_clock->nanoseconds >= 1000000000) { // 1 second in nanoseconds
+        simulated_clock->nanoseconds -= 1000000000;
+        simulated_clock->seconds += seconds + 1;
+    } else {
+        simulated_clock->seconds += seconds;
     }
 }
 
-void createProcess(int index) {
-    int startSec = simClock->seconds;
-    int startNano = simClock->nanoseconds;
+// Function to spawn a new process and log it
+void generate_process(FILE *log_file) {
+    for (int i = 0; i < MAX_PROCS; i++) {
+        if (process_table[i].occupied == 0) {
+            process_table[i].occupied = 1;
+            process_table[i].pid = fork();
 
-    pid_t pid = fork();
-    if (pid == 0) {
-        execl("./worker", "worker", "5", "500000", NULL);
-        perror("execl failed");
-        exit(EXIT_FAILURE);
-    }
-
-    processTable[index] = (struct PCB){1, pid, startSec, startNano, 0, 0, 0, 0, 0};
-    enqueue(queues[0], index);
-}
-
-void createProcess(int index) {
-    int startSec = simClock->seconds;
-    int startNano = simClock->nanoseconds;
-
-    pid_t pid = fork();
-    if (pid == 0) {
-        execl("./worker", "worker", "5", "500000", NULL);
-        perror("execl failed");
-        exit(EXIT_FAILURE);
-    }
-
-    processTable[index] = (struct PCB){1, pid, startSec, startNano, 0, 0, 0, 0, 0};
-    enqueue(queues[0], index);
-
-    fprintf(logfile, "OSS: Generating process with PID %d and putting it in queue 0 at time %d:%d\n", pid, simClock->seconds, simClock->nanoseconds);
-}
-
-void scheduleProcess() {
-    for (int i = 0; i < QUEUE_LEVELS; i++) {
-        if (!isEmpty(queues[i])) {
-            int index = dequeue(queues[i]);
-            struct PCB *pcb = &processTable[index];
-
-            struct msgbuf msg;
-            msg.mtype = pcb->pid;
-            msg.data = (i + 1) * 10000; // Time quantum
-
-            int dispatchStartSec = simClock->seconds;
-            int dispatchStartNano = simClock->nanoseconds;
-
-            if (msgsnd(msq_id, &msg, sizeof(msg.data), 0) == -1) {
-                perror("msgsnd failed");
-            }
-
-            if (msgrcv(msq_id, &msg, sizeof(msg.data), pcb->pid, 0) == -1) {
-                perror("msgrcv failed");
+            if (process_table[i].pid == 0) {
+                // Child process logic
+                char msg[100];
+                snprintf(msg, sizeof(msg), "Running process with PID %d", getpid());
+                log_event(log_file, msg);
+                exit(0);  // End the child process after logging
             } else {
-                int dispatchEndSec = simClock->seconds;
-                int dispatchEndNano = simClock->nanoseconds;
-                int dispatchTime = (dispatchEndSec - dispatchStartSec) * 1000000000 + (dispatchEndNano - dispatchStartNano);
+                // Parent process logic
+                process_table[i].start_seconds = simulated_clock->seconds;
+                process_table[i].start_nanoseconds = simulated_clock->nanoseconds;
+                process_table[i].queue_level = 0; // Start in queue 0 (highest priority)
 
-                fprintf(logfile, "OSS: Dispatching process with PID %d from queue %d at time %d:%d,\n", pcb->pid, i, dispatchStartSec, dispatchStartNano);
-                fprintf(logfile, "OSS: total time this dispatch was %d nanoseconds\n", dispatchTime);
-                fprintf(logfile, "OSS: Receiving that process with PID %d ran for %d nanoseconds\n", pcb->pid, msg.data);
+                char msg[100];
+                snprintf(msg, sizeof(msg), "Generating process with PID %d and putting it in queue 0", process_table[i].pid);
+                log_event(log_file, msg);
+                enqueue(&queues[0], process_table[i].pid);
+                return; // Process generated, exit loop
+            }
+        }
+    }
+}
 
-                if (msg.data < 0) {
-                    pcb->occupied = 0;
-                    waitpid(pcb->pid, NULL, 0);
-                } else {
-                    incrementClock(msg.data);
-                    if (msg.data < (i + 1) * 10000) {
-                        pcb->blocked = 1;
-                        fprintf(logfile, "OSS: Putting process with PID %d into blocked queue\n", pcb->pid);
-                    } else {
-                        if (i < QUEUE_LEVELS - 1) {
-                            enqueue(queues[i + 1], index);
-                            fprintf(logfile, "OSS: Putting process with PID %d into queue %d\n", pcb->pid, i + 1);
-                        } else {
-                            enqueue(queues[i], index);
-                            fprintf(logfile, "OSS: Putting process with PID %d into queue %d\n", pcb->pid, i);
+// Function to dispatch a process from the highest priority queue and log
+void dispatch_process(FILE *log_file) {
+    for (int i = 0; i < NUM_QUEUES; i++) {
+        int pid = dequeue(&queues[i]);
+        if (pid != -1) {
+            for (int j = 0; j < MAX_PROCS; j++) {
+                if (process_table[j].pid == pid && process_table[j].blocked == 0) {
+                    char msg[100];
+                    snprintf(msg, sizeof(msg), "Dispatching process with PID %d from queue %d", process_table[j].pid, i);
+                    log_event(log_file, msg);
+
+                    // Simulate the dispatch time
+                    int dispatch_time = rand() % 10000 + 500; // Random dispatch time
+                    increment_time(0, dispatch_time); // Update clock
+                    snprintf(msg, sizeof(msg), "total time this dispatch was %d nanoseconds", dispatch_time);
+                    log_event(log_file, msg);
+
+                    // Simulate process execution
+                    int ran_for = (rand() % 2) ? BASE_TIME_QUANTUM : BASE_TIME_QUANTUM / 2;
+
+                    snprintf(msg, sizeof(msg), "Receiving that process with PID %d ran for %d nanoseconds", process_table[j].pid, ran_for);
+                    log_event(log_file, msg);
+
+                    // Process transitions
+                    if (ran_for >= BASE_TIME_QUANTUM) {
+                        if (process_table[j].queue_level < NUM_QUEUES - 1) {
+                            process_table[j].queue_level++;
                         }
+                        snprintf(msg, sizeof(msg), "Putting process with PID %d into queue %d", process_table[j].pid, process_table[j].queue_level);
+                        log_event(log_file, msg);
+                        enqueue(&queues[process_table[j].queue_level], process_table[j].pid);
+                    } else if (ran_for < BASE_TIME_QUANTUM / 2) {
+                        snprintf(msg, sizeof(msg), "Putting process with PID %d into blocked queue", process_table[j].pid);
+                        log_event(log_file, msg);
+                        process_table[j].blocked = 1; // Block the process
+                    } else {
+                        snprintf(msg, sizeof(msg), "Process with PID %d did not use its entire time quantum", process_table[j].pid);
+                        log_event(log_file, msg);
+                        enqueue(&queues[process_table[j].queue_level], process_table[j].pid);
                     }
+                    return; // Dispatch one process and return
                 }
             }
-            break;
         }
     }
 }
+// Main function
+int main() {
+    srand(time(NULL));
 
-void logStatus() {
-    fprintf(logfile, "OSS PID:%d SysClockS: %d SysClockNano: %d\n", getpid(), simClock->seconds, simClock->nanoseconds);
-    fprintf(logfile, "Process Table:\nEntry\tOccupied\tPID\tStartS\tStartN\tServiceS\tServiceN\tBlocked\n");
-    for (int i = 0; i < MAX_PROCESSES; i++) {
-        fprintf(logfile, "%d\t%d\t%d\t%d\t%d\t%d\t%d\t%d\n", i, processTable[i].occupied, processTable[i].pid, processTable[i].startSeconds, processTable[i].startNano, processTable[i].serviceTimeSeconds, processTable[i].serviceTimeNano, processTable[i].blocked);
-    }
-}
-
-void logQueues() {
-    for (int i = 0; i < QUEUE_LEVELS; i++) {
-        fprintf(logfile, "Queue %d: ", i);
-        for (int j = queues[i]->front; j != queues[i]->rear; j = (j + 1) % queues[i]->capacity) {
-            fprintf(logfile, "%d ", queues[i]->array[j]);
-        }
-        fprintf(logfile, "\n");
-    }
-}
-
-void checkTimeLimit() {
-    if (time(NULL) - startTime >= TIME_LIMIT) {
-        printf("Time limit reached. Terminating.\n");
-        cleanup();
-        exit(0);
-    }
-}
-
-int main(int argc, char *argv[]) {
-    signal(SIGINT, sigintHandler);
-    startTime = time(NULL);
-
-    shm_id = shmget(SHMKEY, sizeof(struct SharedClock), IPC_CREAT | 0666);
-    if (shm_id == -1) {
+    // Create shared memory for simulated clock
+    int shm_id = shmget(IPC_PRIVATE, sizeof(Clock), IPC_CREAT | 0666);
+    if (shm_id < 0) {
         perror("shmget failed");
-        exit(EXIT_FAILURE);
+        exit(1);
     }
-    simClock = (struct SharedClock *) shmat(shm_id, NULL, 0);
-    if (simClock == (void *) -1) {
+    simulated_clock = (Clock*)shmat(shm_id, NULL, 0);
+    if (simulated_clock == (void *) -1) {
         perror("shmat failed");
-        exit(EXIT_FAILURE);
+        exit(1);
     }
-    simClock->seconds = 0;
-    simClock->nanoseconds = 0;
+    simulated_clock->seconds = 0;
+    simulated_clock->nanoseconds = 0;
 
-    msq_id = msgget(MSGKEY, IPC_CREAT | 0666);
-    if (msq_id == -1) {
-        perror("msgget failed");
-        exit(EXIT_FAILURE);
-    }
-
-    logfile = fopen("oss.log", "w");
-    if (!logfile) {
-        perror("Failed to open log file");
-        exit(EXIT_FAILURE);
+    // Open log file
+    FILE *log_file = fopen("oss_log.txt", "w");
+    if (log_file == NULL) {
+        perror("Error opening log file");
+        exit(1);
     }
 
-    initializeQueues();
+    // Initialize queues
+    initialize_queues();
 
-    int runningChildren = 0, launchedChildren = 0;
+    // Main loop
+    int log_lines = 0;
+    while (log_lines < MAX_LOG_LINES) {
+        // Generate a process and log
+        generate_process(log_file);
+        log_lines++;
 
-    while (launchedChildren < MAX_PROCESSES || runningChildren > 0) {
-        checkTimeLimit();
-        incrementClock(CLOCK_INCREMENT_MS);
-        logStatus();
-        logQueues();
+        // Dispatch a process from the queue and log
+        dispatch_process(log_file);
+        log_lines++;
 
-        if (runningChildren < MAX_PROCESSES && launchedChildren < MAX_PROCESSES) {
-            launchProcesses();
-            launchedChildren++;
-            runningChildren++;
+        // Output the process table every 0.5 seconds
+        if (simulated_clock->nanoseconds % 500000000 == 0) { // 0.5 seconds
+            // Log the process table and queue status
+            fprintf(log_file, "Process Table and Queue status at time %u:%09u\n", simulated_clock->seconds, simulated_clock->nanoseconds);
+            log_lines++;
         }
 
-        scheduleProcess();
+        if (log_lines >= MAX_LOG_LINES) break; // Stop after exceeding max log lines
     }
 
-    fclose(logfile);
-    cleanup();
+    fclose(log_file);
     return 0;
 }
