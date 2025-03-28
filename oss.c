@@ -153,18 +153,18 @@ void dispatch_process(FILE *log_file) {
                     // Simulate process execution
                     int ran = (rand() % 2) ? BASE_TIME_QUANTUM : BASE_TIME_QUANTUM / 2;
 
-                    snprintf(msg, sizeof(msg), "Receiving that process with PID %d ran for %d nanoseconds", process_table[j].pid, ran_for);
+                    snprintf(msg, sizeof(msg), "Receiving that process with PID %d ran for %d nanoseconds", process_table[j].pid, ran);
                     log_event(log_file, msg);
 
                     // Process transitions
-                    if (ran_for >= BASE_TIME_QUANTUM) {
+                    if (ran >= BASE_TIME_QUANTUM) {
                         if (process_table[j].queue_level < NUM_QUEUES - 1) {
                             process_table[j].queue_level++;
                         }
                         snprintf(msg, sizeof(msg), "Putting process with PID %d into queue %d", process_table[j].pid, process_table[j].queue_level);
                         log_event(log_file, msg);
                         enqueue(&queues[process_table[j].queue_level], process_table[j].pid);
-                    } else if (ran_for < BASE_TIME_QUANTUM / 2) {
+                    } else if (ran < BASE_TIME_QUANTUM / 2) {
                         snprintf(msg, sizeof(msg), "Putting process with PID %d into blocked queue", process_table[j].pid);
                         log_event(log_file, msg);
                         process_table[j].blocked = 1; // Block the process
