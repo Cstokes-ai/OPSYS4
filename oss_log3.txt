@@ -1,0 +1,56 @@
+OSS: Generating process with PID 1 and putting it in queue 0 at time 0:000000000
+OSS: Dispatching process with PID 1 from queue 0 at time 0:000000000
+OSS: total time this dispatch was 2959 nanoseconds at time 0:000002959
+OSS: Process with PID 1 used its entire time quantum at time 0:000002959
+OSS: Generating process with PID 2 and putting it in queue 0 at time 0:000012959
+OSS: Dispatching process with PID 1 from queue 0 at time 0:000012959
+OSS: total time this dispatch was 10195 nanoseconds at time 0:000023154
+OSS: Process with PID 1 used its entire time quantum at time 0:000023154
+OSS: Generating process with PID 3 and putting it in queue 0 at time 0:000033154
+OSS: Dispatching process with PID 2 from queue 0 at time 0:000033154
+OSS: total time this dispatch was 7524 nanoseconds at time 0:000040678
+OSS: Process with PID 2 used its entire time quantum at time 0:000040678
+OSS: Generating process with PID 4 and putting it in queue 0 at time 0:000050678
+OSS: Dispatching process with PID 1 from queue 0 at time 0:000050678
+OSS: total time this dispatch was 6060 nanoseconds at time 0:000056738
+OSS: Process with PID 1 used its entire time quantum at time 0:000056738
+OSS: Generating process with PID 5 and putting it in queue 0 at time 0:000066738
+OSS: Dispatching process with PID 3 from queue 0 at time 0:000066738
+OSS: total time this dispatch was 6855 nanoseconds at time 0:000073593
+OSS: Process with PID 3 used its entire time quantum at time 0:000073593
+OSS: Generating process with PID 6 and putting it in queue 0 at time 0:000083593
+OSS: Dispatching process with PID 2 from queue 0 at time 0:000083593
+OSS: total time this dispatch was 5627 nanoseconds at time 0:000089220
+OSS: Process with PID 2 used its entire time quantum at time 0:000089220
+OSS: Generating process with PID 7 and putting it in queue 0 at time 0:000099220
+OSS: Dispatching process with PID 4 from queue 0 at time 0:000099220
+OSS: total time this dispatch was 6404 nanoseconds at time 0:000105624
+OSS: Process with PID 4 used its entire time quantum at time 0:000105624
+OSS: Generating process with PID 8 and putting it in queue 0 at time 0:000115624
+OSS: Dispatching process with PID 1 from queue 0 at time 0:000115624
+OSS: total time this dispatch was 9520 nanoseconds at time 0:000125144
+OSS: Process with PID 1 used its entire time quantum at time 0:000125144
+OSS: Generating process with PID 9 and putting it in queue 0 at time 0:000135144
+OSS: Dispatching process with PID 5 from queue 0 at time 0:000135144
+OSS: total time this dispatch was 1572 nanoseconds at time 0:000136716
+OSS: Process with PID 5 terminated at time 0:000136716
+OSS: Generating process with PID 10 and putting it in queue 0 at time 0:000136715
+OSS: Dispatching process with PID 3 from queue 0 at time 0:000136715
+OSS: total time this dispatch was 2795 nanoseconds at time 0:000139510
+OSS: Process with PID 3 used its entire time quantum at time 0:000139510
+OSS: Generating process with PID 11 and putting it in queue 0 at time 0:000149510
+OSS: Dispatching process with PID 6 from queue 0 at time 0:000149510
+OSS: total time this dispatch was 7797 nanoseconds at time 0:000157307
+OSS: Process with PID 6 used its entire time quantum at time 0:000157307
+OSS: Generating process with PID 12 and putting it in queue 0 at time 0:000167307
+OSS: Dispatching process with PID 2 from queue 0 at time 0:000167307
+OSS: total time this dispatch was 1736 nanoseconds at time 0:000169043
+OSS: Process with PID 2 used its entire time quantum at time 0:000169043
+OSS: Generating process with PID 13 and putting it in queue 0 at time 0:000179043
+OSS: Dispatching process with PID 7 from queue 0 at time 0:000179043
+OSS: total time this dispatch was 1441 nanoseconds at time 0:000180484
+OSS: Process with PID 7 used its entire time quantum at time 0:000180484
+OSS: Generating process with PID 14 and putting it in queue 0 at time 0:000190484
+OSS: Dispatching process with PID 4 from queue 0 at time 0:000190484
+OSS: total time this dispatch was 10284 nanoseconds at time 0:000200768
+OSS: Process with PID 4 used its entire time quantum at time 0:0

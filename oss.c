@@ -1,61 +1,39 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/wait.h>
 #include <time.h>
-#include <errno.h>
-#include <string.h>
 #include <sys/ipc.h>
-#include <sys/msg.h>
 #include <sys/shm.h>
-#include <signal.h>
-#include <math.h>
-#include <fcntl.h>
+#include <unistd.h>
 
 #define MAX_PROCS 18
+#define NUM_QUEUES 10
+#define BASE_TIME_QUANTUM 10000000
 #define MAX_LOG_LINES 10000
-#define BASE_TIME_QUANTUM 10000000 // 10ms in nanoseconds
-#define NUM_QUEUES 3
 
-// Shared memory for clock
 typedef struct {
     unsigned int seconds;
     unsigned int nanoseconds;
 } Clock;
 
-Clock *simulated_clock;
-
-// Process Control Block (PCB)
 typedef struct {
+    int pid;
     int occupied;
-    pid_t pid;
+    int blocked;
     unsigned int start_seconds;
     unsigned int start_nanoseconds;
-    unsigned int service_time_seconds;
-    unsigned int service_time_nanoseconds;
-    unsigned int event_wait_sec;
-    unsigned int event_wait_nanoseconds;
-    int blocked;
     int queue_level;
-} PCB;
+} Process;
 
-PCB process_table[MAX_PROCS];
-
-// Message queue structure
-struct msg_buffer {
-    long msg_type;
-    int quantum;  // Time slice allocated to the process
-};
-
-// Queue structure
-typedef struct Queue {
+typedef struct {
     int pids[MAX_PROCS];
     int front;
     int rear;
 } Queue;
 
+Clock *simulated_clock;
+Process process_table[MAX_PROCS];
 Queue queues[NUM_QUEUES];
+int log_lines = 0; // Global variable to keep track of log lines
 
 // Function to initialize queues
 void initialize_queues() {
@@ -80,6 +58,7 @@ int dequeue(Queue *queue) {
     if (queue->front > queue->rear) queue->front = queue->rear = -1;
     return pid;
 }
+
 // Function to get the current time in "seconds:nanoseconds" format
 void get_time_str(char *time_str, size_t len) {
     snprintf(time_str, len, "%u:%09u", simulated_clock->seconds, simulated_clock->nanoseconds);
@@ -87,10 +66,14 @@ void get_time_str(char *time_str, size_t len) {
 
 // Function to log the events to the file
 void log_event(FILE *log_file, const char *event_msg) {
+    if (log_lines >= MAX_LOG_LINES) {
+        return; // Stop logging if the maximum number of log lines is reached
+    }
     char time_str[20];
     get_time_str(time_str, sizeof(time_str));
     fprintf(log_file, "OSS: %s at time %s\n", event_msg, time_str);
     fflush(log_file);
+    log_lines++; // Increment the log line count
 }
 
 // Function to simulate time increment for OSS
@@ -179,6 +162,7 @@ void dispatch_process(FILE *log_file) {
         }
     }
 }
+
 // Main function
 int main() {
     srand(time(NULL));
@@ -198,7 +182,7 @@ int main() {
     simulated_clock->nanoseconds = 0;
 
     // Open log file
-    FILE *log_file = fopen("oss_log.txt", "w");
+    FILE *log_file = fopen("oss_log5.txt", "w");
     if (log_file == NULL) {
         perror("Error opening log file");
         exit(1);
@@ -208,15 +192,12 @@ int main() {
     initialize_queues();
 
     // Main loop
-    int log_lines = 0;
     while (log_lines < MAX_LOG_LINES) {
         // Generate a process and log
         generate_process(log_file);
-        log_lines++;
 
         // Dispatch a process from the queue and log
         dispatch_process(log_file);
-        log_lines++;
 
         // Output the process table every 0.5 seconds
         if (simulated_clock->nanoseconds % 500000000 == 0) { // 0.5 seconds

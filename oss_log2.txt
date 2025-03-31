@@ -1,0 +1,1032 @@
+OSS: Generating process with PID 23545 and putting it in queue 0 at time 0:000000000
+OSS: Dispatching process with PID 23545 from queue 0 at time 0:000000000
+OSS: Running process with PID 23545 at time 0:000000000
+OSS: total time this dispatch was 10375 nanoseconds at time 0:000010375
+OSS: Receiving that process with PID 23545 ran for 10000000 nanoseconds at time 0:000010375
+OSS: Putting process with PID 23545 into queue 1 at time 0:010010375
+OSS: Generating process with PID 23546 and putting it in queue 0 at time 0:010010375
+OSS: Dispatching process with PID 23546 from queue 0 at time 0:010010375
+OSS: Running process with PID 23546 at time 0:010010375
+OSS: total time this dispatch was 3394 nanoseconds at time 0:010013769
+OSS: Receiving that process with PID 23546 ran for 10000000 nanoseconds at time 0:010013769
+OSS: Putting process with PID 23546 into queue 1 at time 0:020013769
+OSS: Generating process with PID 23547 and putting it in queue 0 at time 0:020013769
+OSS: Dispatching process with PID 23547 from queue 0 at time 0:020013769
+OSS: Running process with PID 23547 at time 0:020013769
+OSS: total time this dispatch was 5566 nanoseconds at time 0:020019335
+OSS: Receiving that process with PID 23547 ran for 10000000 nanoseconds at time 0:020019335
+OSS: Putting process with PID 23547 into queue 1 at time 0:030019335
+OSS: Generating process with PID 23548 and putting it in queue 0 at time 0:030019335
+OSS: Dispatching process with PID 23548 from queue 0 at time 0:030019335
+OSS: Running process with PID 23548 at time 0:030019335
+OSS: total time this dispatch was 1497 nanoseconds at time 0:030020832
+OSS: Receiving that process with PID 23548 ran for 10000000 nanoseconds at time 0:030020832
+OSS: Putting process with PID 23548 into queue 1 at time 0:040020832
+OSS: Generating process with PID 23549 and putting it in queue 0 at time 0:040020832
+OSS: Dispatching process with PID 23549 from queue 0 at time 0:040020832
+OSS: Running process with PID 23549 at time 0:040020832
+OSS: total time this dispatch was 4368 nanoseconds at time 0:040025200
+OSS: Receiving that process with PID 23549 ran for 10000000 nanoseconds at time 0:040025200
+OSS: Putting process with PID 23549 into queue 1 at time 0:050025200
+OSS: Generating process with PID 23550 and putting it in queue 0 at time 0:050025200
+OSS: Dispatching process with PID 23550 from queue 0 at time 0:050025200
+OSS: Running process with PID 23550 at time 0:050025200
+OSS: total time this dispatch was 9438 nanoseconds at time 0:050034638
+OSS: Receiving that process with PID 23550 ran for 10000000 nanoseconds at time 0:050034638
+OSS: Putting process with PID 23550 into queue 1 at time 0:060034638
+OSS: Generating process with PID 23551 and putting it in queue 0 at time 0:060034638
+OSS: Dispatching process with PID 23551 from queue 0 at time 0:060034638
+OSS: Running process with PID 23551 at time 0:060034638
+OSS: total time this dispatch was 2079 nanoseconds at time 0:060036717
+OSS: Receiving that process with PID 23551 ran for 10000000 nanoseconds at time 0:060036717
+OSS: Putting process with PID 23551 into queue 1 at time 0:070036717
+OSS: Generating process with PID 23552 and putting it in queue 0 at time 0:070036717
+OSS: Dispatching process with PID 23552 from queue 0 at time 0:070036717
+OSS: Running process with PID 23552 at time 0:070036717
+OSS: total time this dispatch was 10306 nanoseconds at time 0:070047023
+OSS: Receiving that process with PID 23552 ran for 10000000 nanoseconds at time 0:070047023
+OSS: Putting process with PID 23552 into queue 1 at time 0:080047023
+OSS: Generating process with PID 23553 and putting it in queue 0 at time 0:080047023
+OSS: Dispatching process with PID 23553 from queue 0 at time 0:080047023
+OSS: Running process with PID 23553 at time 0:080047023
+OSS: total time this dispatch was 1895 nanoseconds at time 0:080048918
+OSS: Receiving that process with PID 23553 ran for 10000000 nanoseconds at time 0:080048918
+OSS: Putting process with PID 23553 into queue 1 at time 0:090048918
+OSS: Generating process with PID 23554 and putting it in queue 0 at time 0:090048918
+OSS: Dispatching process with PID 23554 from queue 0 at time 0:090048918
+OSS: Running process with PID 23554 at time 0:090048918
+OSS: total time this dispatch was 10163 nanoseconds at time 0:090059081
+OSS: Receiving that process with PID 23554 ran for 10000000 nanoseconds at time 0:090059081
+OSS: Putting process with PID 23554 into queue 1 at time 0:100059081
+OSS: Generating process with PID 23555 and putting it in queue 0 at time 0:100059081
+OSS: Dispatching process with PID 23555 from queue 0 at time 0:100059081
+OSS: Running process with PID 23555 at time 0:100059081
+OSS: total time this dispatch was 2713 nanoseconds at time 0:100061794
+OSS: Receiving that process with PID 23555 ran for 10000000 nanoseconds at time 0:100061794
+OSS: Putting process with PID 23555 into queue 1 at time 0:110061794
+OSS: Generating process with PID 23556 and putting it in queue 0 at time 0:110061794
+OSS: Dispatching process with PID 23556 from queue 0 at time 0:110061794
+OSS: Running process with PID 23556 at time 0:110061794
+OSS: total time this dispatch was 2797 nanoseconds at time 0:110064591
+OSS: Receiving that process with PID 23556 ran for 10000000 nanoseconds at time 0:110064591
+OSS: Putting process with PID 23556 into queue 1 at time 0:120064591
+OSS: Generating process with PID 23557 and putting it in queue 0 at time 0:120064591
+OSS: Dispatching process with PID 23557 from queue 0 at time 0:120064591
+OSS: Running process with PID 23557 at time 0:120064591
+OSS: total time this dispatch was 4856 nanoseconds at time 0:120069447
+OSS: Receiving that process with PID 23557 ran for 10000000 nanoseconds at time 0:120069447
+OSS: Putting process with PID 23557 into queue 1 at time 0:130069447
+OSS: Generating process with PID 23558 and putting it in queue 0 at time 0:130069447
+OSS: Dispatching process with PID 23558 from queue 0 at time 0:130069447
+OSS: Running process with PID 23558 at time 0:130069447
+OSS: total time this dispatch was 3022 nanoseconds at time 0:130072469
+OSS: Receiving that process with PID 23558 ran for 10000000 nanoseconds at time 0:130072469
+OSS: Putting process with PID 23558 into queue 1 at time 0:140072469
+OSS: Generating process with PID 23559 and putting it in queue 0 at time 0:140072469
+OSS: Running process with PID 23559 at time 0:140072469
+OSS: Dispatching process with PID 23559 from queue 0 at time 0:140072469
+OSS: total time this dispatch was 1923 nanoseconds at time 0:140074392
+OSS: Receiving that process with PID 23559 ran for 10000000 nanoseconds at time 0:140074392
+OSS: Putting process with PID 23559 into queue 1 at time 0:150074392
+OSS: Generating process with PID 23560 and putting it in queue 0 at time 0:150074392
+OSS: Dispatching process with PID 23560 from queue 0 at time 0:150074392
+OSS: Running process with PID 23560 at time 0:150074392
+OSS: total time this dispatch was 787 nanoseconds at time 0:150075179
+OSS: Process with PID 23560 terminated at time 0:150075179
+OSS: Generating process with PID 23561 and putting it in queue 0 at time 0:160075179
+OSS: Dispatching process with PID 23561 from queue 0 at time 0:160075179
+OSS: Running process with PID 23561 at time 0:160075179
+OSS: total time this dispatch was 3681 nanoseconds at time 0:160078860
+OSS: Receiving that process with PID 23561 ran for 10000000 nanoseconds at time 0:160078860
+OSS: Putting process with PID 23561 into queue 1 at time 0:170078860
+OSS: Generating process with PID 23562 and putting it in queue 0 at time 0:170078860
+OSS: Dispatching process with PID 23562 from queue 0 at time 0:170078860
+OSS: Running process with PID 23562 at time 0:170078860
+OSS: total time this dispatch was 1036 nanoseconds at time 0:170079896
+OSS: Receiving that process with PID 23562 ran for 10000000 nanoseconds at time 0:170079896
+OSS: Putting process with PID 23562 into queue 1 at time 0:180079896
+OSS: Generating process with PID 23563 and putting it in queue 0 at time 0:180079896
+OSS: Dispatching process with PID 23563 from queue 0 at time 0:180079896
+OSS: Running process with PID 23563 at time 0:180079896
+OSS: total time this dispatch was 6925 nanoseconds at time 0:180086821
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:180086821
+OSS: Putting process with PID 23563 into queue 1 at time 0:190086821
+OSS: Dispatching process with PID 23545 from queue 1 at time 0:190086821
+OSS: total time this dispatch was 1254 nanoseconds at time 0:190088075
+OSS: Receiving that process with PID 23545 ran for 10000000 nanoseconds at time 0:190088075
+OSS: Putting process with PID 23545 into queue 2 at time 0:200088075
+OSS: Dispatching process with PID 23546 from queue 1 at time 0:200088075
+OSS: total time this dispatch was 6798 nanoseconds at time 0:200094873
+OSS: Receiving that process with PID 23546 ran for 10000000 nanoseconds at time 0:200094873
+OSS: Putting process with PID 23546 into queue 2 at time 0:210094873
+OSS: Dispatching process with PID 23547 from queue 1 at time 0:210094873
+OSS: total time this dispatch was 2819 nanoseconds at time 0:210097692
+OSS: Receiving that process with PID 23547 ran for 10000000 nanoseconds at time 0:210097692
+OSS: Putting process with PID 23547 into queue 2 at time 0:220097692
+OSS: Dispatching process with PID 23548 from queue 1 at time 0:220097692
+OSS: total time this dispatch was 660 nanoseconds at time 0:220098352
+OSS: Receiving that process with PID 23548 ran for 10000000 nanoseconds at time 0:220098352
+OSS: Putting process with PID 23548 into queue 2 at time 0:230098352
+OSS: Dispatching process with PID 23549 from queue 1 at time 0:230098352
+OSS: total time this dispatch was 8654 nanoseconds at time 0:230107006
+OSS: Receiving that process with PID 23549 ran for 10000000 nanoseconds at time 0:230107006
+OSS: Putting process with PID 23549 into queue 2 at time 0:240107006
+OSS: Dispatching process with PID 23550 from queue 1 at time 0:240107006
+OSS: total time this dispatch was 5398 nanoseconds at time 0:240112404
+OSS: Receiving that process with PID 23550 ran for 10000000 nanoseconds at time 0:240112404
+OSS: Putting process with PID 23550 into queue 2 at time 0:250112404
+OSS: Dispatching process with PID 23551 from queue 1 at time 0:250112404
+OSS: total time this dispatch was 6846 nanoseconds at time 0:250119250
+OSS: Receiving that process with PID 23551 ran for 10000000 nanoseconds at time 0:250119250
+OSS: Putting process with PID 23551 into queue 2 at time 0:260119250
+OSS: Dispatching process with PID 23552 from queue 1 at time 0:260119250
+OSS: total time this dispatch was 2740 nanoseconds at time 0:260121990
+OSS: Receiving that process with PID 23552 ran for 10000000 nanoseconds at time 0:260121990
+OSS: Putting process with PID 23552 into queue 2 at time 0:270121990
+OSS: Dispatching process with PID 23553 from queue 1 at time 0:270121990
+OSS: total time this dispatch was 7234 nanoseconds at time 0:270129224
+OSS: Receiving that process with PID 23553 ran for 10000000 nanoseconds at time 0:270129224
+OSS: Putting process with PID 23553 into queue 2 at time 0:280129224
+OSS: Dispatching process with PID 23554 from queue 1 at time 0:280129224
+OSS: total time this dispatch was 9672 nanoseconds at time 0:280138896
+OSS: Receiving that process with PID 23554 ran for 10000000 nanoseconds at time 0:280138896
+OSS: Putting process with PID 23554 into queue 2 at time 0:290138896
+OSS: Dispatching process with PID 23555 from queue 1 at time 0:290138896
+OSS: total time this dispatch was 9656 nanoseconds at time 0:290148552
+OSS: Receiving that process with PID 23555 ran for 10000000 nanoseconds at time 0:290148552
+OSS: Putting process with PID 23555 into queue 2 at time 0:300148552
+OSS: Dispatching process with PID 23556 from queue 1 at time 0:300148552
+OSS: total time this dispatch was 2277 nanoseconds at time 0:300150829
+OSS: Receiving that process with PID 23556 ran for 10000000 nanoseconds at time 0:300150829
+OSS: Putting process with PID 23556 into queue 2 at time 0:310150829
+OSS: Dispatching process with PID 23557 from queue 1 at time 0:310150829
+OSS: total time this dispatch was 6341 nanoseconds at time 0:310157170
+OSS: Receiving that process with PID 23557 ran for 10000000 nanoseconds at time 0:310157170
+OSS: Putting process with PID 23557 into queue 2 at time 0:320157170
+OSS: Dispatching process with PID 23558 from queue 1 at time 0:320157170
+OSS: total time this dispatch was 6383 nanoseconds at time 0:320163553
+OSS: Receiving that process with PID 23558 ran for 10000000 nanoseconds at time 0:320163553
+OSS: Putting process with PID 23558 into queue 2 at time 0:330163553
+OSS: Dispatching process with PID 23559 from queue 1 at time 0:330163553
+OSS: total time this dispatch was 8696 nanoseconds at time 0:330172249
+OSS: Receiving that process with PID 23559 ran for 10000000 nanoseconds at time 0:330172249
+OSS: Putting process with PID 23559 into queue 2 at time 0:340172249
+OSS: Dispatching process with PID 23561 from queue 1 at time 0:340172249
+OSS: total time this dispatch was 589 nanoseconds at time 0:340172838
+OSS: Receiving that process with PID 23561 ran for 10000000 nanoseconds at time 0:340172838
+OSS: Putting process with PID 23561 into queue 2 at time 0:350172838
+OSS: Dispatching process with PID 23562 from queue 1 at time 0:350172838
+OSS: total time this dispatch was 3549 nanoseconds at time 0:350176387
+OSS: Receiving that process with PID 23562 ran for 10000000 nanoseconds at time 0:350176387
+OSS: Putting process with PID 23562 into queue 2 at time 0:360176387
+OSS: Dispatching process with PID 23563 from queue 1 at time 0:360176387
+OSS: total time this dispatch was 9804 nanoseconds at time 0:360186191
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:360186191
+OSS: Putting process with PID 23563 into queue 2 at time 0:370186191
+OSS: Dispatching process with PID 23545 from queue 2 at time 0:370186191
+OSS: total time this dispatch was 9998 nanoseconds at time 0:370196189
+OSS: Receiving that process with PID 23545 ran for 10000000 nanoseconds at time 0:370196189
+OSS: Putting process with PID 23545 into queue 2 at time 0:380196189
+OSS: Dispatching process with PID 23546 from queue 2 at time 0:380196189
+OSS: total time this dispatch was 1104 nanoseconds at time 0:380197293
+OSS: Receiving that process with PID 23546 ran for 10000000 nanoseconds at time 0:380197293
+OSS: Putting process with PID 23546 into queue 2 at time 0:390197293
+OSS: Dispatching process with PID 23547 from queue 2 at time 0:390197293
+OSS: total time this dispatch was 4098 nanoseconds at time 0:390201391
+OSS: Receiving that process with PID 23547 ran for 10000000 nanoseconds at time 0:390201391
+OSS: Putting process with PID 23547 into queue 2 at time 0:400201391
+OSS: Dispatching process with PID 23548 from queue 2 at time 0:400201391
+OSS: total time this dispatch was 8095 nanoseconds at time 0:400209486
+OSS: Process with PID 23548 terminated at time 0:400209486
+OSS: Generating process with PID 23564 and putting it in queue 0 at time 0:410209486
+OSS: Dispatching process with PID 23564 from queue 0 at time 0:410209486
+OSS: Running process with PID 23564 at time 0:410209486
+OSS: total time this dispatch was 6688 nanoseconds at time 0:410216174
+OSS: Receiving that process with PID 23564 ran for 10000000 nanoseconds at time 0:410216174
+OSS: Putting process with PID 23564 into queue 1 at time 0:420216174
+OSS: Dispatching process with PID 23564 from queue 1 at time 0:420216174
+OSS: total time this dispatch was 1467 nanoseconds at time 0:420217641
+OSS: Receiving that process with PID 23564 ran for 10000000 nanoseconds at time 0:420217641
+OSS: Putting process with PID 23564 into queue 2 at time 0:430217641
+OSS: Dispatching process with PID 23549 from queue 2 at time 0:430217641
+OSS: total time this dispatch was 2618 nanoseconds at time 0:430220259
+OSS: Receiving that process with PID 23549 ran for 10000000 nanoseconds at time 0:430220259
+OSS: Putting process with PID 23549 into queue 2 at time 0:440220259
+OSS: Dispatching process with PID 23550 from queue 2 at time 0:440220259
+OSS: total time this dispatch was 9929 nanoseconds at time 0:440230188
+OSS: Receiving that process with PID 23550 ran for 10000000 nanoseconds at time 0:440230188
+OSS: Putting process with PID 23550 into queue 2 at time 0:450230188
+OSS: Dispatching process with PID 23551 from queue 2 at time 0:450230188
+OSS: total time this dispatch was 1085 nanoseconds at time 0:450231273
+OSS: Receiving that process with PID 23551 ran for 10000000 nanoseconds at time 0:450231273
+OSS: Putting process with PID 23551 into queue 2 at time 0:460231273
+OSS: Dispatching process with PID 23552 from queue 2 at time 0:460231273
+OSS: total time this dispatch was 8831 nanoseconds at time 0:460240104
+OSS: Process with PID 23552 terminated at time 0:460240104
+OSS: Generating process with PID 23565 and putting it in queue 0 at time 0:470240104
+OSS: Running process with PID 23565 at time 0:470240104
+OSS: Dispatching process with PID 23565 from queue 0 at time 0:470240104
+OSS: total time this dispatch was 1561 nanoseconds at time 0:470241665
+OSS: Receiving that process with PID 23565 ran for 10000000 nanoseconds at time 0:470241665
+OSS: Putting process with PID 23565 into queue 1 at time 0:480241665
+OSS: Dispatching process with PID 23565 from queue 1 at time 0:480241665
+OSS: total time this dispatch was 1281 nanoseconds at time 0:480242946
+OSS: Receiving that process with PID 23565 ran for 10000000 nanoseconds at time 0:480242946
+OSS: Putting process with PID 23565 into queue 2 at time 0:490242946
+OSS: Dispatching process with PID 23553 from queue 2 at time 0:490242946
+OSS: total time this dispatch was 2246 nanoseconds at time 0:490245192
+OSS: Receiving that process with PID 23553 ran for 10000000 nanoseconds at time 0:490245192
+OSS: Putting process with PID 23553 into queue 2 at time 0:500245192
+OSS: Dispatching process with PID 23554 from queue 2 at time 0:500245192
+OSS: total time this dispatch was 742 nanoseconds at time 0:500245934
+OSS: Receiving that process with PID 23554 ran for 10000000 nanoseconds at time 0:500245934
+OSS: Putting process with PID 23554 into queue 2 at time 0:510245934
+OSS: Dispatching process with PID 23555 from queue 2 at time 0:510245934
+OSS: total time this dispatch was 6050 nanoseconds at time 0:510251984
+OSS: Receiving that process with PID 23555 ran for 10000000 nanoseconds at time 0:510251984
+OSS: Putting process with PID 23555 into queue 2 at time 0:520251984
+OSS: Dispatching process with PID 23556 from queue 2 at time 0:520251984
+OSS: total time this dispatch was 1015 nanoseconds at time 0:520252999
+OSS: Receiving that process with PID 23556 ran for 10000000 nanoseconds at time 0:520252999
+OSS: Putting process with PID 23556 into queue 2 at time 0:530252999
+OSS: Dispatching process with PID 23557 from queue 2 at time 0:530252999
+OSS: total time this dispatch was 4244 nanoseconds at time 0:530257243
+OSS: Receiving that process with PID 23557 ran for 10000000 nanoseconds at time 0:530257243
+OSS: Putting process with PID 23557 into queue 2 at time 0:540257243
+OSS: Dispatching process with PID 23558 from queue 2 at time 0:540257243
+OSS: total time this dispatch was 2157 nanoseconds at time 0:540259400
+OSS: Receiving that process with PID 23558 ran for 10000000 nanoseconds at time 0:540259400
+OSS: Putting process with PID 23558 into queue 2 at time 0:550259400
+OSS: Dispatching process with PID 23559 from queue 2 at time 0:550259400
+OSS: total time this dispatch was 910 nanoseconds at time 0:550260310
+OSS: Receiving that process with PID 23559 ran for 10000000 nanoseconds at time 0:550260310
+OSS: Putting process with PID 23559 into queue 2 at time 0:560260310
+OSS: Dispatching process with PID 23561 from queue 2 at time 0:560260310
+OSS: total time this dispatch was 4380 nanoseconds at time 0:560264690
+OSS: Receiving that process with PID 23561 ran for 10000000 nanoseconds at time 0:560264690
+OSS: Putting process with PID 23561 into queue 2 at time 0:570264690
+OSS: Dispatching process with PID 23562 from queue 2 at time 0:570264690
+OSS: total time this dispatch was 7356 nanoseconds at time 0:570272046
+OSS: Receiving that process with PID 23562 ran for 10000000 nanoseconds at time 0:570272046
+OSS: Putting process with PID 23562 into queue 2 at time 0:580272046
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:580272046
+OSS: total time this dispatch was 2327 nanoseconds at time 0:580274373
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:580274373
+OSS: Putting process with PID 23563 into queue 2 at time 0:590274373
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:590274373
+OSS: total time this dispatch was 4082 nanoseconds at time 0:590278455
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:590278455
+OSS: Putting process with PID 23563 into queue 2 at time 0:600278455
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:600278455
+OSS: total time this dispatch was 6750 nanoseconds at time 0:600285205
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:600285205
+OSS: Putting process with PID 23563 into queue 2 at time 0:610285205
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:610285205
+OSS: total time this dispatch was 5852 nanoseconds at time 0:610291057
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:610291057
+OSS: Putting process with PID 23563 into queue 2 at time 0:620291057
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:620291057
+OSS: total time this dispatch was 8791 nanoseconds at time 0:620299848
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:620299848
+OSS: Putting process with PID 23563 into queue 2 at time 0:630299848
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:630299848
+OSS: total time this dispatch was 1442 nanoseconds at time 0:630301290
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:630301290
+OSS: Putting process with PID 23563 into queue 2 at time 0:640301290
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:640301290
+OSS: total time this dispatch was 7121 nanoseconds at time 0:640308411
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:640308411
+OSS: Putting process with PID 23563 into queue 2 at time 0:650308411
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:650308411
+OSS: total time this dispatch was 6106 nanoseconds at time 0:650314517
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:650314517
+OSS: Putting process with PID 23563 into queue 2 at time 0:660314517
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:660314517
+OSS: total time this dispatch was 4239 nanoseconds at time 0:660318756
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:660318756
+OSS: Putting process with PID 23563 into queue 2 at time 0:670318756
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:670318756
+OSS: total time this dispatch was 7104 nanoseconds at time 0:670325860
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:670325860
+OSS: Putting process with PID 23563 into queue 2 at time 0:680325860
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:680325860
+OSS: total time this dispatch was 7811 nanoseconds at time 0:680333671
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:680333671
+OSS: Putting process with PID 23563 into queue 2 at time 0:690333671
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:690333671
+OSS: total time this dispatch was 5220 nanoseconds at time 0:690338891
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:690338891
+OSS: Putting process with PID 23563 into queue 2 at time 0:700338891
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:700338891
+OSS: total time this dispatch was 4892 nanoseconds at time 0:700343783
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:700343783
+OSS: Putting process with PID 23563 into queue 2 at time 0:710343783
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:710343783
+OSS: total time this dispatch was 1709 nanoseconds at time 0:710345492
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:710345492
+OSS: Putting process with PID 23563 into queue 2 at time 0:720345492
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:720345492
+OSS: total time this dispatch was 5338 nanoseconds at time 0:720350830
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:720350830
+OSS: Putting process with PID 23563 into queue 2 at time 0:730350830
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:730350830
+OSS: total time this dispatch was 2925 nanoseconds at time 0:730353755
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:730353755
+OSS: Putting process with PID 23563 into queue 2 at time 0:740353755
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:740353755
+OSS: total time this dispatch was 4231 nanoseconds at time 0:740357986
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:740357986
+OSS: Putting process with PID 23563 into queue 2 at time 0:750357986
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:750357986
+OSS: total time this dispatch was 538 nanoseconds at time 0:750358524
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:750358524
+OSS: Putting process with PID 23563 into queue 2 at time 0:760358524
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:760358524
+OSS: total time this dispatch was 2679 nanoseconds at time 0:760361203
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:760361203
+OSS: Putting process with PID 23563 into queue 2 at time 0:770361203
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:770361203
+OSS: total time this dispatch was 4980 nanoseconds at time 0:770366183
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:770366183
+OSS: Putting process with PID 23563 into queue 2 at time 0:780366183
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:780366183
+OSS: total time this dispatch was 1361 nanoseconds at time 0:780367544
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:780367544
+OSS: Putting process with PID 23563 into queue 2 at time 0:790367544
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:790367544
+OSS: total time this dispatch was 2746 nanoseconds at time 0:790370290
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:790370290
+OSS: Putting process with PID 23563 into queue 2 at time 0:800370290
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:800370290
+OSS: total time this dispatch was 4963 nanoseconds at time 0:800375253
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:800375253
+OSS: Putting process with PID 23563 into queue 2 at time 0:810375253
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:810375253
+OSS: total time this dispatch was 4845 nanoseconds at time 0:810380098
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:810380098
+OSS: Putting process with PID 23563 into queue 2 at time 0:820380098
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:820380098
+OSS: total time this dispatch was 5860 nanoseconds at time 0:820385958
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:820385958
+OSS: Putting process with PID 23563 into queue 2 at time 0:830385958
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:830385958
+OSS: total time this dispatch was 9308 nanoseconds at time 0:830395266
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:830395266
+OSS: Putting process with PID 23563 into queue 2 at time 0:840395266
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:840395266
+OSS: total time this dispatch was 854 nanoseconds at time 0:840396120
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:840396120
+OSS: Putting process with PID 23563 into queue 2 at time 0:850396120
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:850396120
+OSS: total time this dispatch was 4843 nanoseconds at time 0:850400963
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:850400963
+OSS: Putting process with PID 23563 into queue 2 at time 0:860400963
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:860400963
+OSS: total time this dispatch was 5510 nanoseconds at time 0:860406473
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:860406473
+OSS: Putting process with PID 23563 into queue 2 at time 0:870406473
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:870406473
+OSS: total time this dispatch was 3519 nanoseconds at time 0:870409992
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:870409992
+OSS: Putting process with PID 23563 into queue 2 at time 0:880409992
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:880409992
+OSS: total time this dispatch was 10471 nanoseconds at time 0:880420463
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:880420463
+OSS: Putting process with PID 23563 into queue 2 at time 0:890420463
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:890420463
+OSS: total time this dispatch was 6070 nanoseconds at time 0:890426533
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:890426533
+OSS: Putting process with PID 23563 into queue 2 at time 0:900426533
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:900426533
+OSS: total time this dispatch was 8304 nanoseconds at time 0:900434837
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:900434837
+OSS: Putting process with PID 23563 into queue 2 at time 0:910434837
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:910434837
+OSS: total time this dispatch was 535 nanoseconds at time 0:910435372
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:910435372
+OSS: Putting process with PID 23563 into queue 2 at time 0:920435372
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:920435372
+OSS: total time this dispatch was 556 nanoseconds at time 0:920435928
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:920435928
+OSS: Putting process with PID 23563 into queue 2 at time 0:930435928
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:930435928
+OSS: total time this dispatch was 3657 nanoseconds at time 0:930439585
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:930439585
+OSS: Putting process with PID 23563 into queue 2 at time 0:940439585
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:940439585
+OSS: total time this dispatch was 6790 nanoseconds at time 0:940446375
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:940446375
+OSS: Putting process with PID 23563 into queue 2 at time 0:950446375
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:950446375
+OSS: total time this dispatch was 8899 nanoseconds at time 0:950455274
+OSS: Receiving that process with PID 23563 ran for 10000000 nanoseconds at time 0:950455274
+OSS: Putting process with PID 23563 into queue 2 at time 0:960455274
+OSS: Dispatching process with PID 23563 from queue 2 at time 0:960455274
+OSS: total time this dispatch was 6459 nanoseconds at time 0:960461733
+OSS: Process with PID 23563 terminated at time 0:960461733
+OSS: Generating process with PID 23566 and putting it in queue 0 at time 0:970461733
+OSS: Dispatching process with PID 23566 from queue 0 at time 0:970461733
+OSS: Running process with PID 23566 at time 0:970461733
+OSS: total time this dispatch was 1820 nanoseconds at time 0:970463553
+OSS: Receiving that process with PID 23566 ran for 10000000 nanoseconds at time 0:970463553
+OSS: Putting process with PID 23566 into queue 1 at time 0:980463553
+OSS: Dispatching process with PID 23566 from queue 1 at time 0:980463553
+OSS: total time this dispatch was 4615 nanoseconds at time 0:980468168
+OSS: Process with PID 23566 terminated at time 0:980468168
+OSS: Generating process with PID 23567 and putting it in queue 0 at time 0:990468168
+OSS: Dispatching process with PID 23567 from queue 0 at time 0:990468168
+OSS: Running process with PID 23567 at time 0:990468168
+OSS: total time this dispatch was 4496 nanoseconds at time 0:990472664
+OSS: Receiving that process with PID 23567 ran for 10000000 nanoseconds at time 0:990472664
+OSS: Putting process with PID 23567 into queue 1 at time 1:000472664
+OSS: Dispatching process with PID 23567 from queue 1 at time 1:000472664
+OSS: total time this dispatch was 4702 nanoseconds at time 1:000477366
+OSS: Receiving that process with PID 23567 ran for 10000000 nanoseconds at time 1:000477366
+OSS: Putting process with PID 23567 into queue 2 at time 1:010477366
+OSS: Dispatching process with PID 23567 from queue 2 at time 1:010477366
+OSS: total time this dispatch was 7092 nanoseconds at time 1:010484458
+OSS: Receiving that process with PID 23567 ran for 10000000 nanoseconds at time 1:010484458
+OSS: Putting process with PID 23567 into queue 2 at time 1:020484458
+OSS: Dispatching process with PID 23567 from queue 2 at time 1:020484458
+OSS: total time this dispatch was 2059 nanoseconds at time 1:020486517
+OSS: Receiving that process with PID 23567 ran for 10000000 nanoseconds at time 1:020486517
+OSS: Putting process with PID 23567 into queue 2 at time 1:030486517
+OSS: Dispatching process with PID 23567 from queue 2 at time 1:030486517
+OSS: total time this dispatch was 9518 nanoseconds at time 1:030496035
+OSS: Receiving that process with PID 23567 ran for 10000000 nanoseconds at time 1:030496035
+OSS: Putting process with PID 23567 into queue 2 at time 1:040496035
+OSS: Dispatching process with PID 23567 from queue 2 at time 1:040496035
+OSS: total time this dispatch was 7117 nanoseconds at time 1:040503152
+OSS: Receiving that process with PID 23567 ran for 10000000 nanoseconds at time 1:040503152
+OSS: Putting process with PID 23567 into queue 2 at time 1:050503152
+OSS: Dispatching process with PID 23567 from queue 2 at time 1:050503152
+OSS: total time this dispatch was 5943 nanoseconds at time 1:050509095
+OSS: Receiving that process with PID 23567 ran for 10000000 nanoseconds at time 1:050509095
+OSS: Putting process with PID 23567 into queue 2 at time 1:060509095
+OSS: Dispatching process with PID 23567 from queue 2 at time 1:060509095
+OSS: total time this dispatch was 3658 nanoseconds at time 1:060512753
+OSS: Process with PID 23567 terminated at time 1:060512753
+OSS: Generating process with PID 23568 and putting it in queue 0 at time 1:070512753
+OSS: Dispatching process with PID 23568 from queue 0 at time 1:070512753
+OSS: Running process with PID 23568 at time 1:070512753
+OSS: total time this dispatch was 6815 nanoseconds at time 1:070519568
+OSS: Receiving that process with PID 23568 ran for 10000000 nanoseconds at time 1:070519568
+OSS: Putting process with PID 23568 into queue 1 at time 1:080519568
+OSS: Dispatching process with PID 23568 from queue 1 at time 1:080519568
+OSS: total time this dispatch was 7014 nanoseconds at time 1:080526582
+OSS: Receiving that process with PID 23568 ran for 10000000 nanoseconds at time 1:080526582
+OSS: Putting process with PID 23568 into queue 2 at time 1:090526582
+OSS: Dispatching process with PID 23568 from queue 2 at time 1:090526582
+OSS: total time this dispatch was 8019 nanoseconds at time 1:090534601
+OSS: Receiving that process with PID 23568 ran for 10000000 nanoseconds at time 1:090534601
+OSS: Putting process with PID 23568 into queue 2 at time 1:100534601
+OSS: Dispatching process with PID 23568 from queue 2 at time 1:100534601
+OSS: total time this dispatch was 882 nanoseconds at time 1:100535483
+OSS: Receiving that process with PID 23568 ran for 10000000 nanoseconds at time 1:100535483
+OSS: Putting process with PID 23568 into queue 2 at time 1:110535483
+OSS: Dispatching process with PID 23568 from queue 2 at time 1:110535483
+OSS: total time this dispatch was 9426 nanoseconds at time 1:110544909
+OSS: Receiving that process with PID 23568 ran for 10000000 nanoseconds at time 1:110544909
+OSS: Putting process with PID 23568 into queue 2 at time 1:120544909
+OSS: Dispatching process with PID 23568 from queue 2 at time 1:120544909
+OSS: total time this dispatch was 6217 nanoseconds at time 1:120551126
+OSS: Receiving that process with PID 23568 ran for 10000000 nanoseconds at time 1:120551126
+OSS: Putting process with PID 23568 into queue 2 at time 1:130551126
+OSS: Dispatching process with PID 23568 from queue 2 at time 1:130551126
+OSS: total time this dispatch was 8898 nanoseconds at time 1:130560024
+OSS: Receiving that process with PID 23568 ran for 10000000 nanoseconds at time 1:130560024
+OSS: Putting process with PID 23568 into queue 2 at time 1:140560024
+OSS: Dispatching process with PID 23568 from queue 2 at time 1:140560024
+OSS: total time this dispatch was 3889 nanoseconds at time 1:140563913
+OSS: Receiving that process with PID 23568 ran for 10000000 nanoseconds at time 1:140563913
+OSS: Putting process with PID 23568 into queue 2 at time 1:150563913
+OSS: Dispatching process with PID 23568 from queue 2 at time 1:150563913
+OSS: total time this dispatch was 6228 nanoseconds at time 1:150570141
+OSS: Receiving that process with PID 23568 ran for 10000000 nanoseconds at time 1:150570141
+OSS: Putting process with PID 23568 into queue 2 at time 1:160570141
+OSS: Dispatching process with PID 23568 from queue 2 at time 1:160570141
+OSS: total time this dispatch was 2881 nanoseconds at time 1:160573022
+OSS: Receiving that process with PID 23568 ran for 10000000 nanoseconds at time 1:160573022
+OSS: Putting process with PID 23568 into queue 2 at time 1:170573022
+OSS: Dispatching process with PID 23568 from queue 2 at time 1:170573022
+OSS: total time this dispatch was 7159 nanoseconds at time 1:170580181
+OSS: Process with PID 23568 terminated at time 1:170580181
+OSS: Generating process with PID 23569 and putting it in queue 0 at time 1:180580181
+OSS: Dispatching process with PID 23569 from queue 0 at time 1:180580181
+OSS: Running process with PID 23569 at time 1:180580181
+OSS: total time this dispatch was 641 nanoseconds at time 1:180580822
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:180580822
+OSS: Putting process with PID 23569 into queue 1 at time 1:190580822
+OSS: Dispatching process with PID 23569 from queue 1 at time 1:190580822
+OSS: total time this dispatch was 1994 nanoseconds at time 1:190582816
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:190582816
+OSS: Putting process with PID 23569 into queue 2 at time 1:200582816
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:200582816
+OSS: total time this dispatch was 1769 nanoseconds at time 1:200584585
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:200584585
+OSS: Putting process with PID 23569 into queue 2 at time 1:210584585
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:210584585
+OSS: total time this dispatch was 4287 nanoseconds at time 1:210588872
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:210588872
+OSS: Putting process with PID 23569 into queue 2 at time 1:220588872
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:220588872
+OSS: total time this dispatch was 7819 nanoseconds at time 1:220596691
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:220596691
+OSS: Putting process with PID 23569 into queue 2 at time 1:230596691
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:230596691
+OSS: total time this dispatch was 2155 nanoseconds at time 1:230598846
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:230598846
+OSS: Putting process with PID 23569 into queue 2 at time 1:240598846
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:240598846
+OSS: total time this dispatch was 4574 nanoseconds at time 1:240603420
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:240603420
+OSS: Putting process with PID 23569 into queue 2 at time 1:250603420
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:250603420
+OSS: total time this dispatch was 2625 nanoseconds at time 1:250606045
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:250606045
+OSS: Putting process with PID 23569 into queue 2 at time 1:260606045
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:260606045
+OSS: total time this dispatch was 4700 nanoseconds at time 1:260610745
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:260610745
+OSS: Putting process with PID 23569 into queue 2 at time 1:270610745
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:270610745
+OSS: total time this dispatch was 9611 nanoseconds at time 1:270620356
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:270620356
+OSS: Putting process with PID 23569 into queue 2 at time 1:280620356
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:280620356
+OSS: total time this dispatch was 5429 nanoseconds at time 1:280625785
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:280625785
+OSS: Putting process with PID 23569 into queue 2 at time 1:290625785
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:290625785
+OSS: total time this dispatch was 10187 nanoseconds at time 1:290635972
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:290635972
+OSS: Putting process with PID 23569 into queue 2 at time 1:300635972
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:300635972
+OSS: total time this dispatch was 6865 nanoseconds at time 1:300642837
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:300642837
+OSS: Putting process with PID 23569 into queue 2 at time 1:310642837
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:310642837
+OSS: total time this dispatch was 9951 nanoseconds at time 1:310652788
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:310652788
+OSS: Putting process with PID 23569 into queue 2 at time 1:320652788
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:320652788
+OSS: total time this dispatch was 8299 nanoseconds at time 1:320661087
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:320661087
+OSS: Putting process with PID 23569 into queue 2 at time 1:330661087
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:330661087
+OSS: total time this dispatch was 4486 nanoseconds at time 1:330665573
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:330665573
+OSS: Putting process with PID 23569 into queue 2 at time 1:340665573
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:340665573
+OSS: total time this dispatch was 3512 nanoseconds at time 1:340669085
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:340669085
+OSS: Putting process with PID 23569 into queue 2 at time 1:350669085
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:350669085
+OSS: total time this dispatch was 6729 nanoseconds at time 1:350675814
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:350675814
+OSS: Putting process with PID 23569 into queue 2 at time 1:360675814
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:360675814
+OSS: total time this dispatch was 6984 nanoseconds at time 1:360682798
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:360682798
+OSS: Putting process with PID 23569 into queue 2 at time 1:370682798
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:370682798
+OSS: total time this dispatch was 9923 nanoseconds at time 1:370692721
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:370692721
+OSS: Putting process with PID 23569 into queue 2 at time 1:380692721
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:380692721
+OSS: total time this dispatch was 3424 nanoseconds at time 1:380696145
+OSS: Receiving that process with PID 23569 ran for 10000000 nanoseconds at time 1:380696145
+OSS: Putting process with PID 23569 into queue 2 at time 1:390696145
+OSS: Dispatching process with PID 23569 from queue 2 at time 1:390696145
+OSS: total time this dispatch was 8750 nanoseconds at time 1:390704895
+OSS: Process with PID 23569 terminated at time 1:390704895
+OSS: Generating process with PID 23570 and putting it in queue 0 at time 1:400704895
+OSS: Dispatching process with PID 23570 from queue 0 at time 1:400704895
+OSS: Running process with PID 23570 at time 1:400704895
+OSS: total time this dispatch was 7227 nanoseconds at time 1:400712122
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:400712122
+OSS: Putting process with PID 23570 into queue 1 at time 1:410712122
+OSS: Dispatching process with PID 23570 from queue 1 at time 1:410712122
+OSS: total time this dispatch was 3758 nanoseconds at time 1:410715880
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:410715880
+OSS: Putting process with PID 23570 into queue 2 at time 1:420715880
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:420715880
+OSS: total time this dispatch was 3652 nanoseconds at time 1:420719532
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:420719532
+OSS: Putting process with PID 23570 into queue 2 at time 1:430719532
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:430719532
+OSS: total time this dispatch was 2336 nanoseconds at time 1:430721868
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:430721868
+OSS: Putting process with PID 23570 into queue 2 at time 1:440721868
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:440721868
+OSS: total time this dispatch was 3391 nanoseconds at time 1:440725259
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:440725259
+OSS: Putting process with PID 23570 into queue 2 at time 1:450725259
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:450725259
+OSS: total time this dispatch was 7006 nanoseconds at time 1:450732265
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:450732265
+OSS: Putting process with PID 23570 into queue 2 at time 1:460732265
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:460732265
+OSS: total time this dispatch was 8858 nanoseconds at time 1:460741123
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:460741123
+OSS: Putting process with PID 23570 into queue 2 at time 1:470741123
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:470741123
+OSS: total time this dispatch was 2330 nanoseconds at time 1:470743453
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:470743453
+OSS: Putting process with PID 23570 into queue 2 at time 1:480743453
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:480743453
+OSS: total time this dispatch was 6658 nanoseconds at time 1:480750111
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:480750111
+OSS: Putting process with PID 23570 into queue 2 at time 1:490750111
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:490750111
+OSS: total time this dispatch was 2970 nanoseconds at time 1:490753081
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:490753081
+OSS: Putting process with PID 23570 into queue 2 at time 1:500753081
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:500753081
+OSS: total time this dispatch was 2851 nanoseconds at time 1:500755932
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:500755932
+OSS: Putting process with PID 23570 into queue 2 at time 1:510755932
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:510755932
+OSS: total time this dispatch was 1326 nanoseconds at time 1:510757258
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:510757258
+OSS: Putting process with PID 23570 into queue 2 at time 1:520757258
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:520757258
+OSS: total time this dispatch was 9379 nanoseconds at time 1:520766637
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:520766637
+OSS: Putting process with PID 23570 into queue 2 at time 1:530766637
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:530766637
+OSS: total time this dispatch was 2144 nanoseconds at time 1:530768781
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:530768781
+OSS: Putting process with PID 23570 into queue 2 at time 1:540768781
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:540768781
+OSS: total time this dispatch was 2436 nanoseconds at time 1:540771217
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:540771217
+OSS: Putting process with PID 23570 into queue 2 at time 1:550771217
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:550771217
+OSS: total time this dispatch was 9516 nanoseconds at time 1:550780733
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:550780733
+OSS: Putting process with PID 23570 into queue 2 at time 1:560780733
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:560780733
+OSS: total time this dispatch was 9535 nanoseconds at time 1:560790268
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:560790268
+OSS: Putting process with PID 23570 into queue 2 at time 1:570790268
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:570790268
+OSS: total time this dispatch was 6069 nanoseconds at time 1:570796337
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:570796337
+OSS: Putting process with PID 23570 into queue 2 at time 1:580796337
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:580796337
+OSS: total time this dispatch was 2330 nanoseconds at time 1:580798667
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:580798667
+OSS: Putting process with PID 23570 into queue 2 at time 1:590798667
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:590798667
+OSS: total time this dispatch was 9180 nanoseconds at time 1:590807847
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:590807847
+OSS: Putting process with PID 23570 into queue 2 at time 1:600807847
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:600807847
+OSS: total time this dispatch was 3164 nanoseconds at time 1:600811011
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:600811011
+OSS: Putting process with PID 23570 into queue 2 at time 1:610811011
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:610811011
+OSS: total time this dispatch was 9252 nanoseconds at time 1:610820263
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:610820263
+OSS: Putting process with PID 23570 into queue 2 at time 1:620820263
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:620820263
+OSS: total time this dispatch was 7858 nanoseconds at time 1:620828121
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:620828121
+OSS: Putting process with PID 23570 into queue 2 at time 1:630828121
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:630828121
+OSS: total time this dispatch was 7331 nanoseconds at time 1:630835452
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:630835452
+OSS: Putting process with PID 23570 into queue 2 at time 1:640835452
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:640835452
+OSS: total time this dispatch was 3557 nanoseconds at time 1:640839009
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:640839009
+OSS: Putting process with PID 23570 into queue 2 at time 1:650839009
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:650839009
+OSS: total time this dispatch was 4711 nanoseconds at time 1:650843720
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:650843720
+OSS: Putting process with PID 23570 into queue 2 at time 1:660843720
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:660843720
+OSS: total time this dispatch was 9257 nanoseconds at time 1:660852977
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:660852977
+OSS: Putting process with PID 23570 into queue 2 at time 1:670852977
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:670852977
+OSS: total time this dispatch was 980 nanoseconds at time 1:670853957
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:670853957
+OSS: Putting process with PID 23570 into queue 2 at time 1:680853957
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:680853957
+OSS: total time this dispatch was 5576 nanoseconds at time 1:680859533
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:680859533
+OSS: Putting process with PID 23570 into queue 2 at time 1:690859533
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:690859533
+OSS: total time this dispatch was 799 nanoseconds at time 1:690860332
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:690860332
+OSS: Putting process with PID 23570 into queue 2 at time 1:700860332
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:700860332
+OSS: total time this dispatch was 3971 nanoseconds at time 1:700864303
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:700864303
+OSS: Putting process with PID 23570 into queue 2 at time 1:710864303
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:710864303
+OSS: total time this dispatch was 6175 nanoseconds at time 1:710870478
+OSS: Receiving that process with PID 23570 ran for 10000000 nanoseconds at time 1:710870478
+OSS: Putting process with PID 23570 into queue 2 at time 1:720870478
+OSS: Dispatching process with PID 23570 from queue 2 at time 1:720870478
+OSS: total time this dispatch was 4793 nanoseconds at time 1:720875271
+OSS: Process with PID 23570 terminated at time 1:720875271
+OSS: Generating process with PID 23571 and putting it in queue 0 at time 1:730875271
+OSS: Dispatching process with PID 23571 from queue 0 at time 1:730875271
+OSS: Running process with PID 23571 at time 1:730875271
+OSS: total time this dispatch was 6623 nanoseconds at time 1:730881894
+OSS: Receiving that process with PID 23571 ran for 10000000 nanoseconds at time 1:730881894
+OSS: Putting process with PID 23571 into queue 1 at time 1:740881894
+OSS: Dispatching process with PID 23571 from queue 1 at time 1:740881894
+OSS: total time this dispatch was 6577 nanoseconds at time 1:740888471
+OSS: Process with PID 23571 terminated at time 1:740888471
+OSS: Generating process with PID 23572 and putting it in queue 0 at time 1:750888471
+OSS: Dispatching process with PID 23572 from queue 0 at time 1:750888471
+OSS: Running process with PID 23572 at time 1:750888471
+OSS: total time this dispatch was 8115 nanoseconds at time 1:750896586
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:750896586
+OSS: Putting process with PID 23572 into queue 1 at time 1:760896586
+OSS: Dispatching process with PID 23572 from queue 1 at time 1:760896586
+OSS: total time this dispatch was 8244 nanoseconds at time 1:760904830
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:760904830
+OSS: Putting process with PID 23572 into queue 2 at time 1:770904830
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:770904830
+OSS: total time this dispatch was 3384 nanoseconds at time 1:770908214
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:770908214
+OSS: Putting process with PID 23572 into queue 2 at time 1:780908214
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:780908214
+OSS: total time this dispatch was 1694 nanoseconds at time 1:780909908
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:780909908
+OSS: Putting process with PID 23572 into queue 2 at time 1:790909908
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:790909908
+OSS: total time this dispatch was 729 nanoseconds at time 1:790910637
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:790910637
+OSS: Putting process with PID 23572 into queue 2 at time 1:800910637
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:800910637
+OSS: total time this dispatch was 4553 nanoseconds at time 1:800915190
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:800915190
+OSS: Putting process with PID 23572 into queue 2 at time 1:810915190
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:810915190
+OSS: total time this dispatch was 3648 nanoseconds at time 1:810918838
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:810918838
+OSS: Putting process with PID 23572 into queue 2 at time 1:820918838
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:820918838
+OSS: total time this dispatch was 9827 nanoseconds at time 1:820928665
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:820928665
+OSS: Putting process with PID 23572 into queue 2 at time 1:830928665
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:830928665
+OSS: total time this dispatch was 9862 nanoseconds at time 1:830938527
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:830938527
+OSS: Putting process with PID 23572 into queue 2 at time 1:840938527
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:840938527
+OSS: total time this dispatch was 5736 nanoseconds at time 1:840944263
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:840944263
+OSS: Putting process with PID 23572 into queue 2 at time 1:850944263
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:850944263
+OSS: total time this dispatch was 2146 nanoseconds at time 1:850946409
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:850946409
+OSS: Putting process with PID 23572 into queue 2 at time 1:860946409
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:860946409
+OSS: total time this dispatch was 8543 nanoseconds at time 1:860954952
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:860954952
+OSS: Putting process with PID 23572 into queue 2 at time 1:870954952
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:870954952
+OSS: total time this dispatch was 9007 nanoseconds at time 1:870963959
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:870963959
+OSS: Putting process with PID 23572 into queue 2 at time 1:880963959
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:880963959
+OSS: total time this dispatch was 2563 nanoseconds at time 1:880966522
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:880966522
+OSS: Putting process with PID 23572 into queue 2 at time 1:890966522
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:890966522
+OSS: total time this dispatch was 8369 nanoseconds at time 1:890974891
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:890974891
+OSS: Putting process with PID 23572 into queue 2 at time 1:900974891
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:900974891
+OSS: total time this dispatch was 3435 nanoseconds at time 1:900978326
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:900978326
+OSS: Putting process with PID 23572 into queue 2 at time 1:910978326
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:910978326
+OSS: total time this dispatch was 2062 nanoseconds at time 1:910980388
+OSS: Receiving that process with PID 23572 ran for 10000000 nanoseconds at time 1:910980388
+OSS: Putting process with PID 23572 into queue 2 at time 1:920980388
+OSS: Dispatching process with PID 23572 from queue 2 at time 1:920980388
+OSS: total time this dispatch was 7310 nanoseconds at time 1:920987698
+OSS: Process with PID 23572 terminated at time 1:920987698
+OSS: Generating process with PID 23573 and putting it in queue 0 at time 1:930987698
+OSS: Dispatching process with PID 23573 from queue 0 at time 1:930987698
+OSS: Running process with PID 23573 at time 1:930987698
+OSS: total time this dispatch was 4856 nanoseconds at time 1:930992554
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 1:930992554
+OSS: Putting process with PID 23573 into queue 1 at time 1:940992554
+OSS: Dispatching process with PID 23573 from queue 1 at time 1:940992554
+OSS: total time this dispatch was 8688 nanoseconds at time 1:941001242
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 1:941001242
+OSS: Putting process with PID 23573 into queue 2 at time 1:951001242
+OSS: Dispatching process with PID 23573 from queue 2 at time 1:951001242
+OSS: total time this dispatch was 3996 nanoseconds at time 1:951005238
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 1:951005238
+OSS: Putting process with PID 23573 into queue 2 at time 1:961005238
+OSS: Dispatching process with PID 23573 from queue 2 at time 1:961005238
+OSS: total time this dispatch was 3410 nanoseconds at time 1:961008648
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 1:961008648
+OSS: Putting process with PID 23573 into queue 2 at time 1:971008648
+OSS: Dispatching process with PID 23573 from queue 2 at time 1:971008648
+OSS: total time this dispatch was 9706 nanoseconds at time 1:971018354
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 1:971018354
+OSS: Putting process with PID 23573 into queue 2 at time 1:981018354
+OSS: Dispatching process with PID 23573 from queue 2 at time 1:981018354
+OSS: total time this dispatch was 597 nanoseconds at time 1:981018951
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 1:981018951
+OSS: Putting process with PID 23573 into queue 2 at time 1:991018951
+OSS: Dispatching process with PID 23573 from queue 2 at time 1:991018951
+OSS: total time this dispatch was 3222 nanoseconds at time 1:991022173
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 1:991022173
+OSS: Putting process with PID 23573 into queue 2 at time 2:001022173
+OSS: Dispatching process with PID 23573 from queue 2 at time 2:001022173
+OSS: total time this dispatch was 3683 nanoseconds at time 2:001025856
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 2:001025856
+OSS: Putting process with PID 23573 into queue 2 at time 2:011025856
+OSS: Dispatching process with PID 23573 from queue 2 at time 2:011025856
+OSS: total time this dispatch was 4178 nanoseconds at time 2:011030034
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 2:011030034
+OSS: Putting process with PID 23573 into queue 2 at time 2:021030034
+OSS: Dispatching process with PID 23573 from queue 2 at time 2:021030034
+OSS: total time this dispatch was 8993 nanoseconds at time 2:021039027
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 2:021039027
+OSS: Putting process with PID 23573 into queue 2 at time 2:031039027
+OSS: Dispatching process with PID 23573 from queue 2 at time 2:031039027
+OSS: total time this dispatch was 8039 nanoseconds at time 2:031047066
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 2:031047066
+OSS: Putting process with PID 23573 into queue 2 at time 2:041047066
+OSS: Dispatching process with PID 23573 from queue 2 at time 2:041047066
+OSS: total time this dispatch was 3840 nanoseconds at time 2:041050906
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 2:041050906
+OSS: Putting process with PID 23573 into queue 2 at time 2:051050906
+OSS: Dispatching process with PID 23573 from queue 2 at time 2:051050906
+OSS: total time this dispatch was 4494 nanoseconds at time 2:051055400
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 2:051055400
+OSS: Putting process with PID 23573 into queue 2 at time 2:061055400
+OSS: Dispatching process with PID 23573 from queue 2 at time 2:061055400
+OSS: total time this dispatch was 5213 nanoseconds at time 2:061060613
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 2:061060613
+OSS: Putting process with PID 23573 into queue 2 at time 2:071060613
+OSS: Dispatching process with PID 23573 from queue 2 at time 2:071060613
+OSS: total time this dispatch was 8838 nanoseconds at time 2:071069451
+OSS: Receiving that process with PID 23573 ran for 10000000 nanoseconds at time 2:071069451
+OSS: Putting process with PID 23573 into queue 2 at time 2:081069451
+OSS: Dispatching process with PID 23573 from queue 2 at time 2:081069451
+OSS: total time this dispatch was 3132 nanoseconds at time 2:081072583
+OSS: Process with PID 23573 terminated at time 2:081072583
+OSS: Generating process with PID 23574 and putting it in queue 0 at time 2:091072583
+OSS: Dispatching process with PID 23574 from queue 0 at time 2:091072583
+OSS: Running process with PID 23574 at time 2:091072583
+OSS: total time this dispatch was 7672 nanoseconds at time 2:091080255
+OSS: Receiving that process with PID 23574 ran for 10000000 nanoseconds at time 2:091080255
+OSS: Putting process with PID 23574 into queue 1 at time 2:101080255
+OSS: Dispatching process with PID 23574 from queue 1 at time 2:101080255
+OSS: total time this dispatch was 1655 nanoseconds at time 2:101081910
+OSS: Receiving that process with PID 23574 ran for 10000000 nanoseconds at time 2:101081910
+OSS: Putting process with PID 23574 into queue 2 at time 2:111081910
+OSS: Dispatching process with PID 23574 from queue 2 at time 2:111081910
+OSS: total time this dispatch was 8572 nanoseconds at time 2:111090482
+OSS: Receiving that process with PID 23574 ran for 10000000 nanoseconds at time 2:111090482
+OSS: Putting process with PID 23574 into queue 2 at time 2:121090482
+OSS: Dispatching process with PID 23574 from queue 2 at time 2:121090482
+OSS: total time this dispatch was 3109 nanoseconds at time 2:121093591
+OSS: Receiving that process with PID 23574 ran for 10000000 nanoseconds at time 2:121093591
+OSS: Putting process with PID 23574 into queue 2 at time 2:131093591
+OSS: Dispatching process with PID 23574 from queue 2 at time 2:131093591
+OSS: total time this dispatch was 2486 nanoseconds at time 2:131096077
+OSS: Receiving that process with PID 23574 ran for 10000000 nanoseconds at time 2:131096077
+OSS: Putting process with PID 23574 into queue 2 at time 2:141096077
+OSS: Dispatching process with PID 23574 from queue 2 at time 2:141096077
+OSS: total time this dispatch was 8781 nanoseconds at time 2:141104858
+OSS: Receiving that process with PID 23574 ran for 10000000 nanoseconds at time 2:141104858
+OSS: Putting process with PID 23574 into queue 2 at time 2:151104858
+OSS: Dispatching process with PID 23574 from queue 2 at time 2:151104858
+OSS: total time this dispatch was 7829 nanoseconds at time 2:151112687
+OSS: Receiving that process with PID 23574 ran for 10000000 nanoseconds at time 2:151112687
+OSS: Putting process with PID 23574 into queue 2 at time 2:161112687
+OSS: Dispatching process with PID 23574 from queue 2 at time 2:161112687
+OSS: total time this dispatch was 1799 nanoseconds at time 2:161114486
+OSS: Receiving that process with PID 23574 ran for 10000000 nanoseconds at time 2:161114486
+OSS: Putting process with PID 23574 into queue 2 at time 2:171114486
+OSS: Dispatching process with PID 23574 from queue 2 at time 2:171114486
+OSS: total time this dispatch was 3611 nanoseconds at time 2:171118097
+OSS: Receiving that process with PID 23574 ran for 10000000 nanoseconds at time 2:171118097
+OSS: Putting process with PID 23574 into queue 2 at time 2:181118097
+OSS: Dispatching process with PID 23574 from queue 2 at time 2:181118097
+OSS: total time this dispatch was 844 nanoseconds at time 2:181118941
+OSS: Receiving that process with PID 23574 ran for 10000000 nanoseconds at time 2:181118941
+OSS: Putting process with PID 23574 into queue 2 at time 2:191118941
+OSS: Dispatching process with PID 23574 from queue 2 at time 2:191118941
+OSS: total time this dispatch was 6961 nanoseconds at time 2:191125902
+OSS: Process with PID 23574 terminated at time 2:191125902
+OSS: Generating process with PID 23575 and putting it in queue 0 at time 2:201125902
+OSS: Dispatching process with PID 23575 from queue 0 at time 2:201125902
+OSS: Running process with PID 23575 at time 2:201125902
+OSS: total time this dispatch was 8490 nanoseconds at time 2:201134392
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:201134392
+OSS: Putting process with PID 23575 into queue 1 at time 2:211134392
+OSS: Dispatching process with PID 23575 from queue 1 at time 2:211134392
+OSS: total time this dispatch was 6041 nanoseconds at time 2:211140433
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:211140433
+OSS: Putting process with PID 23575 into queue 2 at time 2:221140433
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:221140433
+OSS: total time this dispatch was 3276 nanoseconds at time 2:221143709
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:221143709
+OSS: Putting process with PID 23575 into queue 2 at time 2:231143709
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:231143709
+OSS: total time this dispatch was 2227 nanoseconds at time 2:231145936
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:231145936
+OSS: Putting process with PID 23575 into queue 2 at time 2:241145936
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:241145936
+OSS: total time this dispatch was 8550 nanoseconds at time 2:241154486
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:241154486
+OSS: Putting process with PID 23575 into queue 2 at time 2:251154486
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:251154486
+OSS: total time this dispatch was 2090 nanoseconds at time 2:251156576
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:251156576
+OSS: Putting process with PID 23575 into queue 2 at time 2:261156576
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:261156576
+OSS: total time this dispatch was 5461 nanoseconds at time 2:261162037
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:261162037
+OSS: Putting process with PID 23575 into queue 2 at time 2:271162037
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:271162037
+OSS: total time this dispatch was 8210 nanoseconds at time 2:271170247
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:271170247
+OSS: Putting process with PID 23575 into queue 2 at time 2:281170247
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:281170247
+OSS: total time this dispatch was 2318 nanoseconds at time 2:281172565
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:281172565
+OSS: Putting process with PID 23575 into queue 2 at time 2:291172565
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:291172565
+OSS: total time this dispatch was 9300 nanoseconds at time 2:291181865
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:291181865
+OSS: Putting process with PID 23575 into queue 2 at time 2:301181865
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:301181865
+OSS: total time this dispatch was 6038 nanoseconds at time 2:301187903
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:301187903
+OSS: Putting process with PID 23575 into queue 2 at time 2:311187903
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:311187903
+OSS: total time this dispatch was 7590 nanoseconds at time 2:311195493
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:311195493
+OSS: Putting process with PID 23575 into queue 2 at time 2:321195493
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:321195493
+OSS: total time this dispatch was 678 nanoseconds at time 2:321196171
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:321196171
+OSS: Putting process with PID 23575 into queue 2 at time 2:331196171
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:331196171
+OSS: total time this dispatch was 5539 nanoseconds at time 2:331201710
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:331201710
+OSS: Putting process with PID 23575 into queue 2 at time 2:341201710
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:341201710
+OSS: total time this dispatch was 3525 nanoseconds at time 2:341205235
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:341205235
+OSS: Putting process with PID 23575 into queue 2 at time 2:351205235
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:351205235
+OSS: total time this dispatch was 5716 nanoseconds at time 2:351210951
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:351210951
+OSS: Putting process with PID 23575 into queue 2 at time 2:361210951
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:361210951
+OSS: total time this dispatch was 9947 nanoseconds at time 2:361220898
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:361220898
+OSS: Putting process with PID 23575 into queue 2 at time 2:371220898
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:371220898
+OSS: total time this dispatch was 547 nanoseconds at time 2:371221445
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:371221445
+OSS: Putting process with PID 23575 into queue 2 at time 2:381221445
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:381221445
+OSS: total time this dispatch was 8488 nanoseconds at time 2:381229933
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:381229933
+OSS: Putting process with PID 23575 into queue 2 at time 2:391229933
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:391229933
+OSS: total time this dispatch was 9511 nanoseconds at time 2:391239444
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:391239444
+OSS: Putting process with PID 23575 into queue 2 at time 2:401239444
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:401239444
+OSS: total time this dispatch was 5516 nanoseconds at time 2:401244960
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:401244960
+OSS: Putting process with PID 23575 into queue 2 at time 2:411244960
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:411244960
+OSS: total time this dispatch was 1640 nanoseconds at time 2:411246600
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:411246600
+OSS: Putting process with PID 23575 into queue 2 at time 2:421246600
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:421246600
+OSS: total time this dispatch was 4580 nanoseconds at time 2:421251180
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:421251180
+OSS: Putting process with PID 23575 into queue 2 at time 2:431251180
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:431251180
+OSS: total time this dispatch was 996 nanoseconds at time 2:431252176
+OSS: Receiving that process with PID 23575 ran for 10000000 nanoseconds at time 2:431252176
+OSS: Putting process with PID 23575 into queue 2 at time 2:441252176
+OSS: Dispatching process with PID 23575 from queue 2 at time 2:441252176
+OSS: total time this dispatch was 3911 nanoseconds at time 2:441256087
+OSS: Process with PID 23575 terminated at time 2:441256087
+OSS: Generating process with PID 23576 and putting it in queue 0 at time 2:451256087
+OSS: Dispatching process with PID 23576 from queue 0 at time 2:451256087
+OSS: Running process with PID 23576 at time 2:451256087
+OSS: total time this dispatch was 5801 nanoseconds at time 2:451261888
