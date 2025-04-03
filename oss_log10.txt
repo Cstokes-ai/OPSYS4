@@ -1,0 +1,167 @@
+OSS: Generating process with PID 1460 and putting it in queue 0 at time 0:000000000
+OSS: Dispatching process with PID 1460 from queue 0 at time 0:000000000
+OSS: Running process with PID 1460 at time 0:000000000
+OSS: total time this dispatch was 5918 nanoseconds at time 0:000005918
+OSS: Process with PID 1460 used its entire time quantum at time 0:000005918
+OSS: Generating process with PID 1461 and putting it in queue 0 at time 0:000005918
+OSS: Dispatching process with PID 1461 from queue 0 at time 0:000005918
+OSS: Running process with PID 1461 at time 0:000005918
+OSS: total time this dispatch was 10187 nanoseconds at time 0:000016105
+OSS: Process with PID 1461 used its entire time quantum at time 0:000016105
+OSS: Generating process with PID 1462 and putting it in queue 0 at time 0:000016105
+OSS: Dispatching process with PID 1462 from queue 0 at time 0:000016105
+OSS: Running process with PID 1462 at time 0:000016105
+OSS: total time this dispatch was 4641 nanoseconds at time 0:000020746
+OSS: Process with PID 1462 used its entire time quantum at time 0:000020746
+OSS: Generating process with PID 1463 and putting it in queue 0 at time 0:000020746
+OSS: Running process with PID 1463 at time 0:000020746
+OSS: Dispatching process with PID 1463 from queue 0 at time 0:000020746
+OSS: total time this dispatch was 1158 nanoseconds at time 0:000021904
+OSS: Process with PID 1463 used its entire time quantum at time 0:000021904
+OSS: Generating process with PID 1464 and putting it in queue 0 at time 0:000021904
+OSS: Running process with PID 1464 at time 0:000021904
+OSS: Dispatching process with PID 1464 from queue 0 at time 0:000021904
+OSS: total time this dispatch was 8481 nanoseconds at time 0:000030385
+OSS: Process with PID 1464 was interrupted and blocked at time 0:000030385
+OSS: Generating process with PID 1465 and putting it in queue 0 at time 0:000030385
+OSS: Dispatching process with PID 1465 from queue 0 at time 0:000030385
+OSS: Running process with PID 1465 at time 0:000030385
+OSS: total time this dispatch was 1419 nanoseconds at time 0:000031804
+OSS: Process with PID 1465 used its entire time quantum at time 0:000031804
+OSS: Generating process with PID 1466 and putting it in queue 0 at time 0:000031804
+OSS: Running process with PID 1466 at time 0:000031804
+OSS: Dispatching process with PID 1466 from queue 0 at time 0:000031804
+OSS: total time this dispatch was 5901 nanoseconds at time 0:000037705
+OSS: Process with PID 1466 used its entire time quantum at time 0:000037705
+OSS: Dispatching process with PID 1460 from queue 1 at time 0:000037705
+OSS: total time this dispatch was 3934 nanoseconds at time 0:000041639
+OSS: Process with PID 1460 used its entire time quantum at time 0:000041639
+OSS: Dispatching process with PID 1461 from queue 1 at time 0:000041639
+OSS: total time this dispatch was 7529 nanoseconds at time 0:000049168
+OSS: Process with PID 1461 used its entire time quantum at time 0:000049168
+OSS: Dispatching process with PID 1462 from queue 1 at time 0:000049168
+OSS: total time this dispatch was 7450 nanoseconds at time 0:000056618
+OSS: Process with PID 1462 used its entire time quantum at time 0:000056618
+OSS: Dispatching process with PID 1463 from queue 1 at time 0:000056618
+OSS: total time this dispatch was 2558 nanoseconds at time 0:000059176
+OSS: Process with PID 1463 used its entire time quantum at time 0:000059176
+OSS: Dispatching process with PID 1465 from queue 1 at time 0:000059176
+OSS: total time this dispatch was 9110 nanoseconds at time 0:000068286
+OSS: Process with PID 1465 used its entire time quantum at time 0:000068286
+OSS: Dispatching process with PID 1466 from queue 1 at time 0:000068286
+OSS: total time this dispatch was 8070 nanoseconds at time 0:000076356
+OSS: Process with PID 1466 used its entire time quantum at time 0:000076356
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000076356
+OSS: total time this dispatch was 10081 nanoseconds at time 0:000086437
+OSS: Process with PID 1460 used its entire time quantum at time 0:000086437
+OSS: Dispatching process with PID 1461 from queue 2 at time 0:000086437
+OSS: total time this dispatch was 9640 nanoseconds at time 0:000096077
+OSS: Process with PID 1461 used its entire time quantum at time 0:000096077
+OSS: Dispatching process with PID 1462 from queue 2 at time 0:000096077
+OSS: total time this dispatch was 931 nanoseconds at time 0:000097008
+OSS: Process with PID 1462 used its entire time quantum at time 0:000097008
+OSS: Dispatching process with PID 1463 from queue 2 at time 0:000097008
+OSS: total time this dispatch was 6449 nanoseconds at time 0:000103457
+OSS: Process with PID 1463 used its entire time quantum at time 0:000103457
+OSS: Dispatching process with PID 1465 from queue 2 at time 0:000103457
+OSS: total time this dispatch was 879 nanoseconds at time 0:000104336
+OSS: Process with PID 1465 used its entire time quantum at time 0:000104336
+OSS: Dispatching process with PID 1466 from queue 2 at time 0:000104336
+OSS: total time this dispatch was 5101 nanoseconds at time 0:000109437
+OSS: Process with PID 1466 used its entire time quantum at time 0:000109437
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000109437
+OSS: total time this dispatch was 8229 nanoseconds at time 0:000117666
+OSS: Process with PID 1460 used its entire time quantum at time 0:000117666
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000117666
+OSS: total time this dispatch was 6385 nanoseconds at time 0:000124051
+OSS: Process with PID 1460 used its entire time quantum at time 0:000124051
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000124051
+OSS: total time this dispatch was 2540 nanoseconds at time 0:000126591
+OSS: Process with PID 1460 used its entire time quantum at time 0:000126591
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000126591
+OSS: total time this dispatch was 4373 nanoseconds at time 0:000130964
+OSS: Process with PID 1460 used its entire time quantum at time 0:000130964
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000130964
+OSS: total time this dispatch was 9487 nanoseconds at time 0:000140451
+OSS: Process with PID 1460 used its entire time quantum at time 0:000140451
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000140451
+OSS: total time this dispatch was 1927 nanoseconds at time 0:000142378
+OSS: Process with PID 1460 used its entire time quantum at time 0:000142378
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000142378
+OSS: total time this dispatch was 8508 nanoseconds at time 0:000150886
+OSS: Process with PID 1460 used its entire time quantum at time 0:000150886
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000150886
+OSS: total time this dispatch was 5038 nanoseconds at time 0:000155924
+OSS: Process with PID 1460 used its entire time quantum at time 0:000155924
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000155924
+OSS: total time this dispatch was 1524 nanoseconds at time 0:000157448
+OSS: Process with PID 1460 used its entire time quantum at time 0:000157448
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000157448
+OSS: total time this dispatch was 7334 nanoseconds at time 0:000164782
+OSS: Process with PID 1460 used its entire time quantum at time 0:000164782
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000164782
+OSS: total time this dispatch was 5961 nanoseconds at time 0:000170743
+OSS: Process with PID 1460 used its entire time quantum at time 0:000170743
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000170743
+OSS: total time this dispatch was 7726 nanoseconds at time 0:000178469
+OSS: Process with PID 1460 used its entire time quantum at time 0:000178469
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000178469
+OSS: total time this dispatch was 7385 nanoseconds at time 0:000185854
+OSS: Process with PID 1460 used its entire time quantum at time 0:000185854
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000185854
+OSS: total time this dispatch was 9214 nanoseconds at time 0:000195068
+OSS: Process with PID 1460 used its entire time quantum at time 0:000195068
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000195068
+OSS: total time this dispatch was 6470 nanoseconds at time 0:000201538
+OSS: Process with PID 1460 used its entire time quantum at time 0:000201538
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000201538
+OSS: total time this dispatch was 1506 nanoseconds at time 0:000203044
+OSS: Process with PID 1460 used its entire time quantum at time 0:000203044
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000203044
+OSS: total time this dispatch was 6397 nanoseconds at time 0:000209441
+OSS: Process with PID 1460 used its entire time quantum at time 0:000209441
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000209441
+OSS: total time this dispatch was 5551 nanoseconds at time 0:000214992
+OSS: Process with PID 1460 used its entire time quantum at time 0:000214992
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000214992
+OSS: total time this dispatch was 5029 nanoseconds at time 0:000220021
+OSS: Process with PID 1460 used its entire time quantum at time 0:000220021
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000220021
+OSS: total time this dispatch was 10263 nanoseconds at time 0:000230284
+OSS: Process with PID 1460 used its entire time quantum at time 0:000230284
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000230284
+OSS: total time this dispatch was 6680 nanoseconds at time 0:000236964
+OSS: Process with PID 1460 used its entire time quantum at time 0:000236964
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000236964
+OSS: total time this dispatch was 2658 nanoseconds at time 0:000239622
+OSS: Process with PID 1460 used its entire time quantum at time 0:000239622
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000239622
+OSS: total time this dispatch was 4231 nanoseconds at time 0:000243853
+OSS: Process with PID 1460 used its entire time quantum at time 0:000243853
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000243853
+OSS: total time this dispatch was 4011 nanoseconds at time 0:000247864
+OSS: Process with PID 1460 used its entire time quantum at time 0:000247864
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000247864
+OSS: total time this dispatch was 2009 nanoseconds at time 0:000249873
+OSS: Process with PID 1460 used its entire time quantum at time 0:000249873
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000249873
+OSS: total time this dispatch was 2212 nanoseconds at time 0:000252085
+OSS: Process with PID 1460 used its entire time quantum at time 0:000252085
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000252085
+OSS: total time this dispatch was 3172 nanoseconds at time 0:000255257
+OSS: Process with PID 1460 used its entire time quantum at time 0:000255257
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000255257
+OSS: total time this dispatch was 6066 nanoseconds at time 0:000261323
+OSS: Process with PID 1460 used its entire time quantum at time 0:000261323
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000261323
+OSS: total time this dispatch was 5318 nanoseconds at time 0:000266641
+OSS: Process with PID 1460 used its entire time quantum at time 0:000266641
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000266641
+OSS: total time this dispatch was 10025 nanoseconds at time 0:000276666
+OSS: Process with PID 1460 used its entire time quantum at time 0:000276666
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000276666
+OSS: total time this dispatch was 4447 nanoseconds at time 0:000281113
+OSS: Process with PID 1460 used its entire time quantum at time 0:000281113
+OSS: Dispatching process with PID 1460 from queue 2 at time 0:000281113
+OSS: total time this dispatch was 1339 nanoseconds at time 0:000282452
+OSS: Process with PID 1460 was interrupted and blocked at time 0:000282452

@@ -5,8 +5,8 @@
 #include <sys/shm.h>
 #include <unistd.h>
 
-#define MAX_PROCS 18
-#define NUM_QUEUES 10
+#define MAX_PROCS 7
+#define NUM_QUEUES 3
 #define BASE_TIME_QUANTUM 10000000
 #define MAX_LOG_LINES 10000
 
@@ -33,6 +33,7 @@ typedef struct {
 Clock *simulated_clock;
 Process process_table[MAX_PROCS];
 Queue queues[NUM_QUEUES];
+Queue blocked_queue; // Declare blocked_queue here
 int log_lines = 0; // Global variable to keep track of log lines
 
 // Function to initialize queues
@@ -40,6 +41,7 @@ void initialize_queues() {
     for (int i = 0; i < NUM_QUEUES; i++) {
         queues[i].front = queues[i].rear = -1;
     }
+    blocked_queue.front = blocked_queue.rear = -1; // Initialize blocked_queue
 }
 
 // Function to enqueue a process
@@ -127,36 +129,31 @@ void dispatch_process(FILE *log_file) {
                     snprintf(msg, sizeof(msg), "Dispatching process with PID %d from queue %d", process_table[j].pid, i);
                     log_event(log_file, msg);
 
-                    // Simulate the dispatch time
-                    int dispatch_time = rand() % 10000 + 500; // Random dispatch time
-                    increment_time(0, dispatch_time); // Update clock
+                    int dispatch_time = rand() % 10000 + 500;
+                    increment_time(0, dispatch_time);
                     snprintf(msg, sizeof(msg), "total time this dispatch was %d nanoseconds", dispatch_time);
                     log_event(log_file, msg);
 
-                    // Simulate process execution
-                    int ran = (rand() % 2) ? BASE_TIME_QUANTUM : BASE_TIME_QUANTUM / 2;
-
-                    snprintf(msg, sizeof(msg), "Receiving that process with PID %d ran for %d nanoseconds", process_table[j].pid, ran);
-                    log_event(log_file, msg);
-
-                    // Process transitions
-                    if (ran >= BASE_TIME_QUANTUM) {
+                    int ran = rand() % 100;
+                    if (ran < 94) { // 94% chance to use entire time quantum
+                        snprintf(msg, sizeof(msg), "Process with PID %d used its entire time quantum", process_table[j].pid);
+                        log_event(log_file, msg);
+                        // Move to the next lower priority queue or stay in the same queue if already in the lowest
                         if (process_table[j].queue_level < NUM_QUEUES - 1) {
                             process_table[j].queue_level++;
                         }
-                        snprintf(msg, sizeof(msg), "Putting process with PID %d into queue %d", process_table[j].pid, process_table[j].queue_level);
-                        log_event(log_file, msg);
                         enqueue(&queues[process_table[j].queue_level], process_table[j].pid);
-                    } else if (ran < BASE_TIME_QUANTUM / 2) {
-                        snprintf(msg, sizeof(msg), "Putting process with PID %d into blocked queue", process_table[j].pid);
+                    } else if (ran < 99) { // 5% chance to be interrupted and blocked
+                        snprintf(msg, sizeof(msg), "Process with PID %d was interrupted and blocked", process_table[j].pid);
                         log_event(log_file, msg);
-                        process_table[j].blocked = 1; // Block the process
-                    } else {
-                        snprintf(msg, sizeof(msg), "Process with PID %d did not use its entire time quantum", process_table[j].pid);
+                        process_table[j].blocked = 1;
+                        enqueue(&blocked_queue, process_table[j].pid);
+                    } else { // 1% chance to terminate
+                        snprintf(msg, sizeof(msg), "Process with PID %d terminated", process_table[j].pid);
                         log_event(log_file, msg);
-                        enqueue(&queues[process_table[j].queue_level], process_table[j].pid);
+                        process_table[j].occupied = 0;
                     }
-                    return; // Dispatch one process and return
+                    return;
                 }
             }
         }
@@ -182,7 +179,7 @@ int main() {
     simulated_clock->nanoseconds = 0;
 
     // Open log file
-    FILE *log_file = fopen("oss_log5.txt", "w");
+    FILE *log_file = fopen("oss_log10.txt", "w");
     if (log_file == NULL) {
         perror("Error opening log file");
         exit(1);

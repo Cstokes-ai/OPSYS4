@@ -1,0 +1,638 @@
+OSS: Generating process with PID 1327 and putting it in queue 0 at time 0:000000000
+OSS: Running process with PID 1327 at time 0:000000000
+OSS: Dispatching process with PID 1327 from queue 0 at time 0:000000000
+OSS: total time this dispatch was 10151 nanoseconds at time 0:000010151
+OSS: Process with PID 1327 used its entire time quantum at time 0:000010151
+OSS: Generating process with PID 1328 and putting it in queue 0 at time 0:010010151
+OSS: Dispatching process with PID 1327 from queue 0 at time 0:010010151
+OSS: Running process with PID 1328 at time 0:010010151
+OSS: total time this dispatch was 6677 nanoseconds at time 0:010016828
+OSS: Process with PID 1327 used its entire time quantum at time 0:010016828
+OSS: Generating process with PID 1329 and putting it in queue 0 at time 0:020016828
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:020016828
+OSS: Running process with PID 1329 at time 0:020016828
+OSS: total time this dispatch was 9212 nanoseconds at time 0:020026040
+OSS: Process with PID 1328 used its entire time quantum at time 0:020026040
+OSS: Generating process with PID 1330 and putting it in queue 0 at time 0:030026040
+OSS: Running process with PID 1330 at time 0:030026040
+OSS: Dispatching process with PID 1327 from queue 0 at time 0:030026040
+OSS: total time this dispatch was 4119 nanoseconds at time 0:030030159
+OSS: Process with PID 1327 used its entire time quantum at time 0:030030159
+OSS: Generating process with PID 1331 and putting it in queue 0 at time 0:040030159
+OSS: Dispatching process with PID 1329 from queue 0 at time 0:040030159
+OSS: Running process with PID 1331 at time 0:040030159
+OSS: total time this dispatch was 8813 nanoseconds at time 0:040038972
+OSS: Process with PID 1329 used its entire time quantum at time 0:040038972
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:050038972
+OSS: total time this dispatch was 7296 nanoseconds at time 0:050046268
+OSS: Process with PID 1328 used its entire time quantum at time 0:050046268
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:060046268
+OSS: total time this dispatch was 4081 nanoseconds at time 0:060050349
+OSS: Process with PID 1328 used its entire time quantum at time 0:060050349
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:070050349
+OSS: total time this dispatch was 7046 nanoseconds at time 0:070057395
+OSS: Process with PID 1328 used its entire time quantum at time 0:070057395
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:080057395
+OSS: total time this dispatch was 6161 nanoseconds at time 0:080063556
+OSS: Process with PID 1328 used its entire time quantum at time 0:080063556
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:090063556
+OSS: total time this dispatch was 8853 nanoseconds at time 0:090072409
+OSS: Process with PID 1328 used its entire time quantum at time 0:090072409
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:100072409
+OSS: total time this dispatch was 3500 nanoseconds at time 0:100075909
+OSS: Process with PID 1328 used its entire time quantum at time 0:100075909
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:110075909
+OSS: total time this dispatch was 4401 nanoseconds at time 0:110080310
+OSS: Process with PID 1328 used its entire time quantum at time 0:110080310
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:120080310
+OSS: total time this dispatch was 7550 nanoseconds at time 0:120087860
+OSS: Process with PID 1328 used its entire time quantum at time 0:120087860
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:130087860
+OSS: total time this dispatch was 4846 nanoseconds at time 0:130092706
+OSS: Process with PID 1328 used its entire time quantum at time 0:130092706
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:140092706
+OSS: total time this dispatch was 4320 nanoseconds at time 0:140097026
+OSS: Process with PID 1328 used its entire time quantum at time 0:140097026
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:150097026
+OSS: total time this dispatch was 2053 nanoseconds at time 0:150099079
+OSS: Process with PID 1328 used its entire time quantum at time 0:150099079
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:160099079
+OSS: total time this dispatch was 7010 nanoseconds at time 0:160106089
+OSS: Process with PID 1328 used its entire time quantum at time 0:160106089
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:170106089
+OSS: total time this dispatch was 8412 nanoseconds at time 0:170114501
+OSS: Process with PID 1328 used its entire time quantum at time 0:170114501
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:180114501
+OSS: total time this dispatch was 5057 nanoseconds at time 0:180119558
+OSS: Process with PID 1328 used its entire time quantum at time 0:180119558
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:190119558
+OSS: total time this dispatch was 10190 nanoseconds at time 0:190129748
+OSS: Process with PID 1328 used its entire time quantum at time 0:190129748
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:200129748
+OSS: total time this dispatch was 541 nanoseconds at time 0:200130289
+OSS: Process with PID 1328 used its entire time quantum at time 0:200130289
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:210130289
+OSS: total time this dispatch was 3157 nanoseconds at time 0:210133446
+OSS: Process with PID 1328 used its entire time quantum at time 0:210133446
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:220133446
+OSS: total time this dispatch was 7593 nanoseconds at time 0:220141039
+OSS: Process with PID 1328 used its entire time quantum at time 0:220141039
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:230141039
+OSS: total time this dispatch was 4858 nanoseconds at time 0:230145897
+OSS: Process with PID 1328 used its entire time quantum at time 0:230145897
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:240145897
+OSS: total time this dispatch was 2322 nanoseconds at time 0:240148219
+OSS: Process with PID 1328 used its entire time quantum at time 0:240148219
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:250148219
+OSS: total time this dispatch was 2890 nanoseconds at time 0:250151109
+OSS: Process with PID 1328 used its entire time quantum at time 0:250151109
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:260151109
+OSS: total time this dispatch was 3578 nanoseconds at time 0:260154687
+OSS: Process with PID 1328 used its entire time quantum at time 0:260154687
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:270154687
+OSS: total time this dispatch was 2728 nanoseconds at time 0:270157415
+OSS: Process with PID 1328 used its entire time quantum at time 0:270157415
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:280157415
+OSS: total time this dispatch was 6114 nanoseconds at time 0:280163529
+OSS: Process with PID 1328 used its entire time quantum at time 0:280163529
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:290163529
+OSS: total time this dispatch was 8669 nanoseconds at time 0:290172198
+OSS: Process with PID 1328 used its entire time quantum at time 0:290172198
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:300172198
+OSS: total time this dispatch was 3537 nanoseconds at time 0:300175735
+OSS: Process with PID 1328 used its entire time quantum at time 0:300175735
+OSS: Dispatching process with PID 1328 from queue 0 at time 0:310175735
+OSS: total time this dispatch was 9757 nanoseconds at time 0:310185492
+OSS: Process with PID 1328 terminated at time 0:310185492
+OSS: Generating process with PID 1332 and putting it in queue 0 at time 0:310185491
+OSS: Running process with PID 1332 at time 0:310185491
+OSS: Dispatching process with PID 1332 from queue 0 at time 0:310185491
+OSS: total time this dispatch was 4022 nanoseconds at time 0:310189513
+OSS: Process with PID 1332 used its entire time quantum at time 0:310189513
+OSS: Dispatching process with PID 1332 from queue 0 at time 0:320189513
+OSS: total time this dispatch was 5214 nanoseconds at time 0:320194727
+OSS: Process with PID 1332 used its entire time quantum at time 0:320194727
+OSS: Dispatching process with PID 1332 from queue 0 at time 0:330194727
+OSS: total time this dispatch was 4016 nanoseconds at time 0:330198743
+OSS: Process with PID 1332 used its entire time quantum at time 0:330198743
+OSS: Dispatching process with PID 1332 from queue 0 at time 0:340198743
+OSS: total time this dispatch was 1946 nanoseconds at time 0:340200689
+OSS: Process with PID 1332 used its entire time quantum at time 0:340200689
+OSS: Dispatching process with PID 1332 from queue 0 at time 0:350200689
+OSS: total time this dispatch was 3445 nanoseconds at time 0:350204134
+OSS: Process with PID 1332 used its entire time quantum at time 0:350204134
+OSS: Dispatching process with PID 1332 from queue 0 at time 0:360204134
+OSS: total time this dispatch was 3947 nanoseconds at time 0:360208081
+OSS: Process with PID 1332 used its entire time quantum at time 0:360208081
+OSS: Dispatching process with PID 1332 from queue 0 at time 0:370208081
+OSS: total time this dispatch was 2631 nanoseconds at time 0:370210712
+OSS: Process with PID 1332 used its entire time quantum at time 0:370210712
+OSS: Dispatching process with PID 1332 from queue 0 at time 0:380210712
+OSS: total time this dispatch was 823 nanoseconds at time 0:380211535
+OSS: Process with PID 1332 terminated at time 0:380211535
+OSS: Generating process with PID 1333 and putting it in queue 0 at time 0:380211534
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:380211534
+OSS: Running process with PID 1333 at time 0:380211534
+OSS: total time this dispatch was 5646 nanoseconds at time 0:380217180
+OSS: Process with PID 1333 used its entire time quantum at time 0:380217180
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:390217180
+OSS: total time this dispatch was 8086 nanoseconds at time 0:390225266
+OSS: Process with PID 1333 used its entire time quantum at time 0:390225266
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:400225266
+OSS: total time this dispatch was 7605 nanoseconds at time 0:400232871
+OSS: Process with PID 1333 used its entire time quantum at time 0:400232871
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:410232871
+OSS: total time this dispatch was 800 nanoseconds at time 0:410233671
+OSS: Process with PID 1333 used its entire time quantum at time 0:410233671
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:420233671
+OSS: total time this dispatch was 5839 nanoseconds at time 0:420239510
+OSS: Process with PID 1333 used its entire time quantum at time 0:420239510
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:430239510
+OSS: total time this dispatch was 1849 nanoseconds at time 0:430241359
+OSS: Process with PID 1333 used its entire time quantum at time 0:430241359
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:440241359
+OSS: total time this dispatch was 2440 nanoseconds at time 0:440243799
+OSS: Process with PID 1333 used its entire time quantum at time 0:440243799
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:450243799
+OSS: total time this dispatch was 4971 nanoseconds at time 0:450248770
+OSS: Process with PID 1333 used its entire time quantum at time 0:450248770
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:460248770
+OSS: total time this dispatch was 3072 nanoseconds at time 0:460251842
+OSS: Process with PID 1333 used its entire time quantum at time 0:460251842
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:470251842
+OSS: total time this dispatch was 9781 nanoseconds at time 0:470261623
+OSS: Process with PID 1333 used its entire time quantum at time 0:470261623
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:480261623
+OSS: total time this dispatch was 7823 nanoseconds at time 0:480269446
+OSS: Process with PID 1333 used its entire time quantum at time 0:480269446
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:490269446
+OSS: total time this dispatch was 2657 nanoseconds at time 0:490272103
+OSS: Process with PID 1333 used its entire time quantum at time 0:490272103
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:500272103
+OSS: total time this dispatch was 9583 nanoseconds at time 0:500281686
+OSS: Process with PID 1333 used its entire time quantum at time 0:500281686
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:510281686
+OSS: total time this dispatch was 7727 nanoseconds at time 0:510289413
+OSS: Process with PID 1333 used its entire time quantum at time 0:510289413
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:520289413
+OSS: total time this dispatch was 1480 nanoseconds at time 0:520290893
+OSS: Process with PID 1333 used its entire time quantum at time 0:520290893
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:530290893
+OSS: total time this dispatch was 9784 nanoseconds at time 0:530300677
+OSS: Process with PID 1333 used its entire time quantum at time 0:530300677
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:540300677
+OSS: total time this dispatch was 9546 nanoseconds at time 0:540310223
+OSS: Process with PID 1333 used its entire time quantum at time 0:540310223
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:550310223
+OSS: total time this dispatch was 6704 nanoseconds at time 0:550316927
+OSS: Process with PID 1333 used its entire time quantum at time 0:550316927
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:560316927
+OSS: total time this dispatch was 3276 nanoseconds at time 0:560320203
+OSS: Process with PID 1333 used its entire time quantum at time 0:560320203
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:570320203
+OSS: total time this dispatch was 8277 nanoseconds at time 0:570328480
+OSS: Process with PID 1333 used its entire time quantum at time 0:570328480
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:580328480
+OSS: total time this dispatch was 6693 nanoseconds at time 0:580335173
+OSS: Process with PID 1333 used its entire time quantum at time 0:580335173
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:590335173
+OSS: total time this dispatch was 5916 nanoseconds at time 0:590341089
+OSS: Process with PID 1333 used its entire time quantum at time 0:590341089
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:600341089
+OSS: total time this dispatch was 3836 nanoseconds at time 0:600344925
+OSS: Process with PID 1333 used its entire time quantum at time 0:600344925
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:610344925
+OSS: total time this dispatch was 751 nanoseconds at time 0:610345676
+OSS: Process with PID 1333 used its entire time quantum at time 0:610345676
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:620345676
+OSS: total time this dispatch was 6264 nanoseconds at time 0:620351940
+OSS: Process with PID 1333 used its entire time quantum at time 0:620351940
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:630351940
+OSS: total time this dispatch was 1972 nanoseconds at time 0:630353912
+OSS: Process with PID 1333 used its entire time quantum at time 0:630353912
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:640353912
+OSS: total time this dispatch was 5668 nanoseconds at time 0:640359580
+OSS: Process with PID 1333 used its entire time quantum at time 0:640359580
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:650359580
+OSS: total time this dispatch was 8683 nanoseconds at time 0:650368263
+OSS: Process with PID 1333 used its entire time quantum at time 0:650368263
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:660368263
+OSS: total time this dispatch was 1139 nanoseconds at time 0:660369402
+OSS: Process with PID 1333 used its entire time quantum at time 0:660369402
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:670369402
+OSS: total time this dispatch was 9093 nanoseconds at time 0:670378495
+OSS: Process with PID 1333 used its entire time quantum at time 0:670378495
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:680378495
+OSS: total time this dispatch was 683 nanoseconds at time 0:680379178
+OSS: Process with PID 1333 used its entire time quantum at time 0:680379178
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:690379178
+OSS: total time this dispatch was 4598 nanoseconds at time 0:690383776
+OSS: Process with PID 1333 used its entire time quantum at time 0:690383776
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:700383776
+OSS: total time this dispatch was 4304 nanoseconds at time 0:700388080
+OSS: Process with PID 1333 used its entire time quantum at time 0:700388080
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:710388080
+OSS: total time this dispatch was 8584 nanoseconds at time 0:710396664
+OSS: Process with PID 1333 used its entire time quantum at time 0:710396664
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:720396664
+OSS: total time this dispatch was 3659 nanoseconds at time 0:720400323
+OSS: Process with PID 1333 used its entire time quantum at time 0:720400323
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:730400323
+OSS: total time this dispatch was 7900 nanoseconds at time 0:730408223
+OSS: Process with PID 1333 used its entire time quantum at time 0:730408223
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:740408223
+OSS: total time this dispatch was 8192 nanoseconds at time 0:740416415
+OSS: Process with PID 1333 used its entire time quantum at time 0:740416415
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:750416415
+OSS: total time this dispatch was 690 nanoseconds at time 0:750417105
+OSS: Process with PID 1333 used its entire time quantum at time 0:750417105
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:760417105
+OSS: total time this dispatch was 3204 nanoseconds at time 0:760420309
+OSS: Process with PID 1333 used its entire time quantum at time 0:760420309
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:770420309
+OSS: total time this dispatch was 6493 nanoseconds at time 0:770426802
+OSS: Process with PID 1333 used its entire time quantum at time 0:770426802
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:780426802
+OSS: total time this dispatch was 6825 nanoseconds at time 0:780433627
+OSS: Process with PID 1333 used its entire time quantum at time 0:780433627
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:790433627
+OSS: total time this dispatch was 8407 nanoseconds at time 0:790442034
+OSS: Process with PID 1333 used its entire time quantum at time 0:790442034
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:800442034
+OSS: total time this dispatch was 7947 nanoseconds at time 0:800449981
+OSS: Process with PID 1333 used its entire time quantum at time 0:800449981
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:810449981
+OSS: total time this dispatch was 5302 nanoseconds at time 0:810455283
+OSS: Process with PID 1333 used its entire time quantum at time 0:810455283
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:820455283
+OSS: total time this dispatch was 8352 nanoseconds at time 0:820463635
+OSS: Process with PID 1333 used its entire time quantum at time 0:820463635
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:830463635
+OSS: total time this dispatch was 6558 nanoseconds at time 0:830470193
+OSS: Process with PID 1333 used its entire time quantum at time 0:830470193
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:840470193
+OSS: total time this dispatch was 4476 nanoseconds at time 0:840474669
+OSS: Process with PID 1333 used its entire time quantum at time 0:840474669
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:850474669
+OSS: total time this dispatch was 10469 nanoseconds at time 0:850485138
+OSS: Process with PID 1333 used its entire time quantum at time 0:850485138
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:860485138
+OSS: total time this dispatch was 3662 nanoseconds at time 0:860488800
+OSS: Process with PID 1333 used its entire time quantum at time 0:860488800
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:870488800
+OSS: total time this dispatch was 1213 nanoseconds at time 0:870490013
+OSS: Process with PID 1333 used its entire time quantum at time 0:870490013
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:880490013
+OSS: total time this dispatch was 7119 nanoseconds at time 0:880497132
+OSS: Process with PID 1333 used its entire time quantum at time 0:880497132
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:890497132
+OSS: total time this dispatch was 8878 nanoseconds at time 0:890506010
+OSS: Process with PID 1333 used its entire time quantum at time 0:890506010
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:900506010
+OSS: total time this dispatch was 7782 nanoseconds at time 0:900513792
+OSS: Process with PID 1333 used its entire time quantum at time 0:900513792
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:910513792
+OSS: total time this dispatch was 8545 nanoseconds at time 0:910522337
+OSS: Process with PID 1333 used its entire time quantum at time 0:910522337
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:920522337
+OSS: total time this dispatch was 5861 nanoseconds at time 0:920528198
+OSS: Process with PID 1333 used its entire time quantum at time 0:920528198
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:930528198
+OSS: total time this dispatch was 5306 nanoseconds at time 0:930533504
+OSS: Process with PID 1333 used its entire time quantum at time 0:930533504
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:940533504
+OSS: total time this dispatch was 2004 nanoseconds at time 0:940535508
+OSS: Process with PID 1333 used its entire time quantum at time 0:940535508
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:950535508
+OSS: total time this dispatch was 6384 nanoseconds at time 0:950541892
+OSS: Process with PID 1333 used its entire time quantum at time 0:950541892
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:960541892
+OSS: total time this dispatch was 2007 nanoseconds at time 0:960543899
+OSS: Process with PID 1333 used its entire time quantum at time 0:960543899
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:970543899
+OSS: total time this dispatch was 10242 nanoseconds at time 0:970554141
+OSS: Process with PID 1333 used its entire time quantum at time 0:970554141
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:980554141
+OSS: total time this dispatch was 7285 nanoseconds at time 0:980561426
+OSS: Process with PID 1333 used its entire time quantum at time 0:980561426
+OSS: Dispatching process with PID 1333 from queue 0 at time 0:990561426
+OSS: total time this dispatch was 598 nanoseconds at time 0:990562024
+OSS: Process with PID 1333 used its entire time quantum at time 0:990562024
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:000562024
+OSS: total time this dispatch was 2808 nanoseconds at time 1:000564832
+OSS: Process with PID 1333 used its entire time quantum at time 1:000564832
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:010564832
+OSS: total time this dispatch was 5395 nanoseconds at time 1:010570227
+OSS: Process with PID 1333 used its entire time quantum at time 1:010570227
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:020570227
+OSS: total time this dispatch was 4973 nanoseconds at time 1:020575200
+OSS: Process with PID 1333 used its entire time quantum at time 1:020575200
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:030575200
+OSS: total time this dispatch was 8644 nanoseconds at time 1:030583844
+OSS: Process with PID 1333 used its entire time quantum at time 1:030583844
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:040583844
+OSS: total time this dispatch was 6926 nanoseconds at time 1:040590770
+OSS: Process with PID 1333 used its entire time quantum at time 1:040590770
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:050590770
+OSS: total time this dispatch was 2256 nanoseconds at time 1:050593026
+OSS: Process with PID 1333 used its entire time quantum at time 1:050593026
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:060593026
+OSS: total time this dispatch was 1942 nanoseconds at time 1:060594968
+OSS: Process with PID 1333 used its entire time quantum at time 1:060594968
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:070594968
+OSS: total time this dispatch was 6898 nanoseconds at time 1:070601866
+OSS: Process with PID 1333 used its entire time quantum at time 1:070601866
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:080601866
+OSS: total time this dispatch was 692 nanoseconds at time 1:080602558
+OSS: Process with PID 1333 used its entire time quantum at time 1:080602558
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:090602558
+OSS: total time this dispatch was 1694 nanoseconds at time 1:090604252
+OSS: Process with PID 1333 used its entire time quantum at time 1:090604252
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:100604252
+OSS: total time this dispatch was 7121 nanoseconds at time 1:100611373
+OSS: Process with PID 1333 used its entire time quantum at time 1:100611373
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:110611373
+OSS: total time this dispatch was 3852 nanoseconds at time 1:110615225
+OSS: Process with PID 1333 used its entire time quantum at time 1:110615225
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:120615225
+OSS: total time this dispatch was 969 nanoseconds at time 1:120616194
+OSS: Process with PID 1333 used its entire time quantum at time 1:120616194
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:130616194
+OSS: total time this dispatch was 691 nanoseconds at time 1:130616885
+OSS: Process with PID 1333 used its entire time quantum at time 1:130616885
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:140616885
+OSS: total time this dispatch was 5747 nanoseconds at time 1:140622632
+OSS: Process with PID 1333 used its entire time quantum at time 1:140622632
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:150622632
+OSS: total time this dispatch was 4868 nanoseconds at time 1:150627500
+OSS: Process with PID 1333 used its entire time quantum at time 1:150627500
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:160627500
+OSS: total time this dispatch was 9913 nanoseconds at time 1:160637413
+OSS: Process with PID 1333 used its entire time quantum at time 1:160637413
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:170637413
+OSS: total time this dispatch was 6231 nanoseconds at time 1:170643644
+OSS: Process with PID 1333 used its entire time quantum at time 1:170643644
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:180643644
+OSS: total time this dispatch was 8076 nanoseconds at time 1:180651720
+OSS: Process with PID 1333 used its entire time quantum at time 1:180651720
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:190651720
+OSS: total time this dispatch was 8182 nanoseconds at time 1:190659902
+OSS: Process with PID 1333 used its entire time quantum at time 1:190659902
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:200659902
+OSS: total time this dispatch was 3602 nanoseconds at time 1:200663504
+OSS: Process with PID 1333 used its entire time quantum at time 1:200663504
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:210663504
+OSS: total time this dispatch was 914 nanoseconds at time 1:210664418
+OSS: Process with PID 1333 used its entire time quantum at time 1:210664418
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:220664418
+OSS: total time this dispatch was 2444 nanoseconds at time 1:220666862
+OSS: Process with PID 1333 used its entire time quantum at time 1:220666862
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:230666862
+OSS: total time this dispatch was 4552 nanoseconds at time 1:230671414
+OSS: Process with PID 1333 used its entire time quantum at time 1:230671414
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:240671414
+OSS: total time this dispatch was 4868 nanoseconds at time 1:240676282
+OSS: Process with PID 1333 used its entire time quantum at time 1:240676282
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:250676282
+OSS: total time this dispatch was 7037 nanoseconds at time 1:250683319
+OSS: Process with PID 1333 used its entire time quantum at time 1:250683319
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:260683319
+OSS: total time this dispatch was 5528 nanoseconds at time 1:260688847
+OSS: Process with PID 1333 used its entire time quantum at time 1:260688847
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:270688847
+OSS: total time this dispatch was 2321 nanoseconds at time 1:270691168
+OSS: Process with PID 1333 used its entire time quantum at time 1:270691168
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:280691168
+OSS: total time this dispatch was 6188 nanoseconds at time 1:280697356
+OSS: Process with PID 1333 used its entire time quantum at time 1:280697356
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:290697356
+OSS: total time this dispatch was 9604 nanoseconds at time 1:290706960
+OSS: Process with PID 1333 used its entire time quantum at time 1:290706960
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:300706960
+OSS: total time this dispatch was 1857 nanoseconds at time 1:300708817
+OSS: Process with PID 1333 used its entire time quantum at time 1:300708817
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:310708817
+OSS: total time this dispatch was 1696 nanoseconds at time 1:310710513
+OSS: Process with PID 1333 used its entire time quantum at time 1:310710513
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:320710513
+OSS: total time this dispatch was 5940 nanoseconds at time 1:320716453
+OSS: Process with PID 1333 used its entire time quantum at time 1:320716453
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:330716453
+OSS: total time this dispatch was 1508 nanoseconds at time 1:330717961
+OSS: Process with PID 1333 used its entire time quantum at time 1:330717961
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:340717961
+OSS: total time this dispatch was 7654 nanoseconds at time 1:340725615
+OSS: Process with PID 1333 used its entire time quantum at time 1:340725615
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:350725615
+OSS: total time this dispatch was 10222 nanoseconds at time 1:350735837
+OSS: Process with PID 1333 used its entire time quantum at time 1:350735837
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:360735837
+OSS: total time this dispatch was 4982 nanoseconds at time 1:360740819
+OSS: Process with PID 1333 used its entire time quantum at time 1:360740819
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:370740819
+OSS: total time this dispatch was 1653 nanoseconds at time 1:370742472
+OSS: Process with PID 1333 used its entire time quantum at time 1:370742472
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:380742472
+OSS: total time this dispatch was 3800 nanoseconds at time 1:380746272
+OSS: Process with PID 1333 used its entire time quantum at time 1:380746272
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:390746272
+OSS: total time this dispatch was 9063 nanoseconds at time 1:390755335
+OSS: Process with PID 1333 used its entire time quantum at time 1:390755335
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:400755335
+OSS: total time this dispatch was 7303 nanoseconds at time 1:400762638
+OSS: Process with PID 1333 used its entire time quantum at time 1:400762638
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:410762638
+OSS: total time this dispatch was 5509 nanoseconds at time 1:410768147
+OSS: Process with PID 1333 used its entire time quantum at time 1:410768147
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:420768147
+OSS: total time this dispatch was 1841 nanoseconds at time 1:420769988
+OSS: Process with PID 1333 used its entire time quantum at time 1:420769988
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:430769988
+OSS: total time this dispatch was 4181 nanoseconds at time 1:430774169
+OSS: Process with PID 1333 used its entire time quantum at time 1:430774169
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:440774169
+OSS: total time this dispatch was 5694 nanoseconds at time 1:440779863
+OSS: Process with PID 1333 used its entire time quantum at time 1:440779863
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:450779863
+OSS: total time this dispatch was 4818 nanoseconds at time 1:450784681
+OSS: Process with PID 1333 used its entire time quantum at time 1:450784681
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:460784681
+OSS: total time this dispatch was 5813 nanoseconds at time 1:460790494
+OSS: Process with PID 1333 used its entire time quantum at time 1:460790494
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:470790494
+OSS: total time this dispatch was 4174 nanoseconds at time 1:470794668
+OSS: Process with PID 1333 used its entire time quantum at time 1:470794668
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:480794668
+OSS: total time this dispatch was 9293 nanoseconds at time 1:480803961
+OSS: Process with PID 1333 used its entire time quantum at time 1:480803961
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:490803961
+OSS: total time this dispatch was 621 nanoseconds at time 1:490804582
+OSS: Process with PID 1333 used its entire time quantum at time 1:490804582
+OSS: Dispatching process with PID 1333 from queue 0 at time 1:500804582
+OSS: total time this dispatch was 3873 nanoseconds at time 1:500808455
+OSS: Process with PID 1333 terminated at time 1:500808455
+OSS: Generating process with PID 1334 and putting it in queue 0 at time 1:500808454
+OSS: Dispatching process with PID 1334 from queue 0 at time 1:500808454
+OSS: Running process with PID 1334 at time 1:500808454
+OSS: total time this dispatch was 8355 nanoseconds at time 1:500816809
+OSS: Process with PID 1334 used its entire time quantum at time 1:500816809
+OSS: Dispatching process with PID 1334 from queue 0 at time 1:510816809
+OSS: total time this dispatch was 4209 nanoseconds at time 1:510821018
+OSS: Process with PID 1334 used its entire time quantum at time 1:510821018
+OSS: Dispatching process with PID 1334 from queue 0 at time 1:520821018
+OSS: total time this dispatch was 6483 nanoseconds at time 1:520827501
+OSS: Process with PID 1334 used its entire time quantum at time 1:520827501
+OSS: Dispatching process with PID 1334 from queue 0 at time 1:530827501
+OSS: total time this dispatch was 9697 nanoseconds at time 1:530837198
+OSS: Process with PID 1334 used its entire time quantum at time 1:530837198
+OSS: Dispatching process with PID 1334 from queue 0 at time 1:540837198
+OSS: total time this dispatch was 2569 nanoseconds at time 1:540839767
+OSS: Process with PID 1334 used its entire time quantum at time 1:540839767
+OSS: Dispatching process with PID 1334 from queue 0 at time 1:550839767
+OSS: total time this dispatch was 5512 nanoseconds at time 1:550845279
+OSS: Process with PID 1334 used its entire time quantum at time 1:550845279
+OSS: Dispatching process with PID 1334 from queue 0 at time 1:560845279
+OSS: total time this dispatch was 8842 nanoseconds at time 1:560854121
+OSS: Process with PID 1334 terminated at time 1:560854121
+OSS: Generating process with PID 1335 and putting it in queue 0 at time 1:560854120
+OSS: Dispatching process with PID 1335 from queue 0 at time 1:560854120
+OSS: Running process with PID 1335 at time 1:560854120
+OSS: total time this dispatch was 2224 nanoseconds at time 1:560856344
+OSS: Process with PID 1335 used its entire time quantum at time 1:560856344
+OSS: Dispatching process with PID 1335 from queue 0 at time 1:570856344
+OSS: total time this dispatch was 6274 nanoseconds at time 1:570862618
+OSS: Process with PID 1335 terminated at time 1:570862618
+OSS: Generating process with PID 1336 and putting it in queue 0 at time 1:570862617
+OSS: Dispatching process with PID 1336 from queue 0 at time 1:570862617
+OSS: Running process with PID 1336 at time 1:570862617
+OSS: total time this dispatch was 1588 nanoseconds at time 1:570864205
+OSS: Process with PID 1336 used its entire time quantum at time 1:570864205
+OSS: Dispatching process with PID 1336 from queue 0 at time 1:580864205
+OSS: total time this dispatch was 6818 nanoseconds at time 1:580871023
+OSS: Process with PID 1336 used its entire time quantum at time 1:580871023
+OSS: Dispatching process with PID 1336 from queue 0 at time 1:590871023
+OSS: total time this dispatch was 3553 nanoseconds at time 1:590874576
+OSS: Process with PID 1336 used its entire time quantum at time 1:590874576
+OSS: Dispatching process with PID 1336 from queue 0 at time 1:600874576
+OSS: total time this dispatch was 5167 nanoseconds at time 1:600879743
+OSS: Process with PID 1336 used its entire time quantum at time 1:600879743
+OSS: Dispatching process with PID 1336 from queue 0 at time 1:610879743
+OSS: total time this dispatch was 1226 nanoseconds at time 1:610880969
+OSS: Process with PID 1336 used its entire time quantum at time 1:610880969
+OSS: Dispatching process with PID 1336 from queue 0 at time 1:620880969
+OSS: total time this dispatch was 8409 nanoseconds at time 1:620889378
+OSS: Process with PID 1336 used its entire time quantum at time 1:620889378
+OSS: Dispatching process with PID 1336 from queue 0 at time 1:630889378
+OSS: total time this dispatch was 4046 nanoseconds at time 1:630893424
+OSS: Process with PID 1336 used its entire time quantum at time 1:630893424
+OSS: Dispatching process with PID 1336 from queue 0 at time 1:640893424
+OSS: total time this dispatch was 9715 nanoseconds at time 1:640903139
+OSS: Process with PID 1336 used its entire time quantum at time 1:640903139
+OSS: Dispatching process with PID 1336 from queue 0 at time 1:650903139
+OSS: total time this dispatch was 10088 nanoseconds at time 1:650913227
+OSS: Process with PID 1336 used its entire time quantum at time 1:650913227
+OSS: Dispatching process with PID 1336 from queue 0 at time 1:660913227
+OSS: total time this dispatch was 6385 nanoseconds at time 1:660919612
+OSS: Process with PID 1336 used its entire time quantum at time 1:660919612
+OSS: Dispatching process with PID 1336 from queue 0 at time 1:670919612
+OSS: total time this dispatch was 2265 nanoseconds at time 1:670921877
+OSS: Process with PID 1336 terminated at time 1:670921877
+OSS: Generating process with PID 1337 and putting it in queue 0 at time 1:670921876
+OSS: Dispatching process with PID 1337 from queue 0 at time 1:670921876
+OSS: Running process with PID 1337 at time 1:670921876
+OSS: total time this dispatch was 6960 nanoseconds at time 1:670928836
+OSS: Process with PID 1337 used its entire time quantum at time 1:670928836
+OSS: Dispatching process with PID 1337 from queue 0 at time 1:680928836
+OSS: total time this dispatch was 5399 nanoseconds at time 1:680934235
+OSS: Process with PID 1337 used its entire time quantum at time 1:680934235
+OSS: Dispatching process with PID 1337 from queue 0 at time 1:690934235
+OSS: total time this dispatch was 5684 nanoseconds at time 1:690939919
+OSS: Process with PID 1337 used its entire time quantum at time 1:690939919
+OSS: Dispatching process with PID 1337 from queue 0 at time 1:700939919
+OSS: total time this dispatch was 7431 nanoseconds at time 1:700947350
+OSS: Process with PID 1337 used its entire time quantum at time 1:700947350
+OSS: Dispatching process with PID 1337 from queue 0 at time 1:710947350
+OSS: total time this dispatch was 2261 nanoseconds at time 1:710949611
+OSS: Process with PID 1337 used its entire time quantum at time 1:710949611
+OSS: Dispatching process with PID 1337 from queue 0 at time 1:720949611
+OSS: total time this dispatch was 4646 nanoseconds at time 1:720954257
+OSS: Process with PID 1337 used its entire time quantum at time 1:720954257
+OSS: Dispatching process with PID 1337 from queue 0 at time 1:730954257
+OSS: total time this dispatch was 4745 nanoseconds at time 1:730959002
+OSS: Process with PID 1337 terminated at time 1:730959002
+OSS: Generating process with PID 1338 and putting it in queue 0 at time 1:730959001
+OSS: Dispatching process with PID 1338 from queue 0 at time 1:730959001
+OSS: Running process with PID 1338 at time 1:730959001
+OSS: total time this dispatch was 10098 nanoseconds at time 1:730969099
+OSS: Process with PID 1338 used its entire time quantum at time 1:730969099
+OSS: Dispatching process with PID 1338 from queue 0 at time 1:740969099
+OSS: total time this dispatch was 2336 nanoseconds at time 1:740971435
+OSS: Process with PID 1338 used its entire time quantum at time 1:740971435
+OSS: Dispatching process with PID 1338 from queue 0 at time 1:750971435
+OSS: total time this dispatch was 7658 nanoseconds at time 1:750979093
+OSS: Process with PID 1338 used its entire time quantum at time 1:750979093
+OSS: Dispatching process with PID 1338 from queue 0 at time 1:760979093
+OSS: total time this dispatch was 8681 nanoseconds at time 1:760987774
+OSS: Process with PID 1338 used its entire time quantum at time 1:760987774
+OSS: Dispatching process with PID 1338 from queue 0 at time 1:770987774
+OSS: total time this dispatch was 8116 nanoseconds at time 1:770995890
+OSS: Process with PID 1338 used its entire time quantum at time 1:770995890
+OSS: Dispatching process with PID 1338 from queue 0 at time 1:780995890
+OSS: total time this dispatch was 4342 nanoseconds at time 1:781000232
+OSS: Process with PID 1338 used its entire time quantum at time 1:781000232
+OSS: Dispatching process with PID 1338 from queue 0 at time 1:791000232
+OSS: total time this dispatch was 6278 nanoseconds at time 1:791006510
+OSS: Process with PID 1338 used its entire time quantum at time 1:791006510
+OSS: Dispatching process with PID 1338 from queue 0 at time 1:801006510
+OSS: total time this dispatch was 1250 nanoseconds at time 1:801007760
+OSS: Process with PID 1338 used its entire time quantum at time 1:801007760
+OSS: Dispatching process with PID 1338 from queue 0 at time 1:811007760
+OSS: total time this dispatch was 8920 nanoseconds at time 1:811016680
+OSS: Process with PID 1338 terminated at time 1:811016680
+OSS: Generating process with PID 1339 and putting it in queue 0 at time 1:811016679
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:811016679
+OSS: Running process with PID 1339 at time 1:811016679
+OSS: total time this dispatch was 3456 nanoseconds at time 1:811020135
+OSS: Process with PID 1339 used its entire time quantum at time 1:811020135
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:821020135
+OSS: total time this dispatch was 2816 nanoseconds at time 1:821022951
+OSS: Process with PID 1339 used its entire time quantum at time 1:821022951
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:831022951
+OSS: total time this dispatch was 9707 nanoseconds at time 1:831032658
+OSS: Process with PID 1339 used its entire time quantum at time 1:831032658
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:841032658
+OSS: total time this dispatch was 7931 nanoseconds at time 1:841040589
+OSS: Process with PID 1339 used its entire time quantum at time 1:841040589
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:851040589
+OSS: total time this dispatch was 7236 nanoseconds at time 1:851047825
+OSS: Process with PID 1339 used its entire time quantum at time 1:851047825
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:861047825
+OSS: total time this dispatch was 1705 nanoseconds at time 1:861049530
+OSS: Process with PID 1339 used its entire time quantum at time 1:861049530
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:871049530
+OSS: total time this dispatch was 8126 nanoseconds at time 1:871057656
+OSS: Process with PID 1339 used its entire time quantum at time 1:871057656
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:881057656
+OSS: total time this dispatch was 6399 nanoseconds at time 1:881064055
+OSS: Process with PID 1339 used its entire time quantum at time 1:881064055
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:891064055
+OSS: total time this dispatch was 3792 nanoseconds at time 1:891067847
+OSS: Process with PID 1339 used its entire time quantum at time 1:891067847
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:901067847
+OSS: total time this dispatch was 6518 nanoseconds at time 1:901074365
+OSS: Process with PID 1339 used its entire time quantum at time 1:901074365
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:911074365
+OSS: total time this dispatch was 5749 nanoseconds at time 1:911080114
+OSS: Process with PID 1339 used its entire time quantum at time 1:911080114
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:921080114
+OSS: total time this dispatch was 6713 nanoseconds at time 1:921086827
+OSS: Process with PID 1339 used its entire time quantum at time 1:921086827
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:931086827
+OSS: total time this dispatch was 6417 nanoseconds at time 1:931093244
+OSS: Process with PID 1339 used its entire time quantum at time 1:931093244
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:941093244
+OSS: total time this dispatch was 2705 nanoseconds at time 1:941095949
+OSS: Process with PID 1339 used its entire time quantum at time 1:941095949
+OSS: Dispatching process with PID 1339 from queue 0 at time 1:951095949
+OSS: total time this dispatch was 7093 nanoseconds at time 1:951103042
+OSS: Process with PID 1339 did not use its entire time quantum at time 1:951103042
